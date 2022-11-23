@@ -14,7 +14,7 @@ features.addEventListener('click', ()=>{
      resList.style.top = '-350px'
 
     if (featList.style.top = '-350px') {
-        featList.style.top = '10px'
+        featList.style.top = '20px'
         featList.style.opacity ='1'
     }else{
         featList.style.top = '-350px'
