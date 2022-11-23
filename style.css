@@ -130,7 +130,7 @@ background: rgb(21,114,161); */
     .menu .products,
     .menu .resources,
     .menu .more{
-        display: block;
+        display: inline;
         cursor: pointer;
         border: none;
         padding:5px 10px;
@@ -138,15 +138,15 @@ background: rgb(21,114,161); */
         max-width: fit-content;
         z-index: 200;
     }
-      /* .menu .features:hover,
+      .menu .features:hover,
     .menu .products:hover ,
     .menu .resources:hover{
         animation: animate 2s infinite;
     }
     @keyframes animate {
-        from{  border-bottom: 1px solid #1572A1;}
-        to{  border-bottom: 1px solid #E3BEC6;}
-    } */
+        from{  border-bottom: 2px solid #1572A1;}
+        to{  border-bottom: 2px solid #E3BEC6;}
+    }
 
 
     .menu .features-list,
