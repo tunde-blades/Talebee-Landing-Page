@@ -98,12 +98,13 @@ background: rgb(21,114,161); */
 
 .action{
     border: none;
-    padding: 8px 15px;
+    padding: 8px 20px;
     border-radius: 1em;
     border-bottom: 1px solid grey;
     background-color: #9AD0E1;
     color: white;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .get-organised{
     box-sizing: border-box;
@@ -143,6 +144,9 @@ background: rgb(21,114,161); */
 
 
 @media (min-width : 700px) {
+    .container{
+        padding: 10px 40px;
+    }
     .menubar{
         display: none;
     }
@@ -199,12 +203,11 @@ background: rgb(21,114,161); */
     width: 100%;
     max-width: 1200px;
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 .get-organised picture img{
     width: 100%;
@@ -216,4 +219,13 @@ background: rgb(21,114,161); */
     font-size: 35px;
 }
 
+}
+
+@media (min-width:1000px) {
+    .ur-business{
+        text-align: left;
+        font-family: sans-serif;
+        width: 600px;
+        font-size: 45px;
+    }
 }
