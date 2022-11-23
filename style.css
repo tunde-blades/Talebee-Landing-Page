@@ -1,0 +1,154 @@
+/* background: linear-gradient(151deg, rgba(21,114,161,1) 0%, rgba(154,208,236,1) 46%, rgba(227,190,198,1) 89%);
+background: rgb(21,114,161); */
+
+
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-decoration: none;;
+}
+.container{
+    padding: 5px 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:gray ;
+}
+.mainhead{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+   padding-top: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 20px;
+    width: 70%;
+    max-width: 600px;
+}
+.menu .navs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.menu ol li{
+    margin: 5px 0;
+    background-color:rgb(240, 240, 240) ;
+    padding: 10px 15px;
+    max-width: 200px;
+    border-radius: .3em;
+    cursor: pointer;
+}
+.menu ol a{
+    color: black;
+    font-size: 14px;
+}
+.menu .features,
+.menu .products,
+.menu .resources,
+.menu .more{
+    display: none;
+}
+
+.menu .features-list,
+.menu .products-list,
+.menu .resources-list,
+.menu .more-list{
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: -350px;
+    opacity: 0;
+    max-width: fit-content;
+    transition:all .5s ease-in-out;
+    gap: 20px;
+    margin: 20px 0;
+    border-radius: .3em;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.loginbtn{
+    background: none;
+    border: none;
+    padding: 0 5px;
+}
+.signUpbtn{
+    border: none;
+    padding: 10px;
+    background-color:#EFDAD7 ;
+    border-radius: 1em;
+    border-bottom: 1px solid grey;
+}
+
+
+.get-organised{
+    position: relative;
+    margin-top: 50px;
+}
+
+
+
+@media (min-width : 700px) {
+    .menubar{
+        display: none;
+    }
+    .menu .features,
+    .menu .products,
+    .menu .resources,
+    .menu .more{
+        display: block;
+        cursor: pointer;
+        border: none;
+        padding:5px 10px;
+        background:none ;
+        max-width: fit-content;
+        z-index: 200;
+    }
+      .menu .features:hover,
+    .menu .products:hover ,
+    .menu .resources:hover{
+        animation: animate 2s infinite;
+    }
+    @keyframes animate {
+        from{  border-bottom: 1px solid #1572A1;}
+        to{  border-bottom: 1px solid #E3BEC6;}
+    }
+
+
+    .menu .features-list,
+    .menu .products-list,
+    .menu .resources-list,
+    .menu .more-list{
+        padding: 20px;
+        box-sizing: border-box;
+        background-color:#9AD0E1 ;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+        top: -350px;
+        opacity: 0;
+        max-width: fit-content;
+        transition:all .5s ease-in-out;
+        gap: 20px;
+        margin: 20px 0;
+        border-radius: .3em;
+        z-index: 150;
+    }
+}
