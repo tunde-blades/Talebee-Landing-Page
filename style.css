@@ -9,7 +9,7 @@ background: rgb(21,114,161); */
     text-decoration: none;;
 }
 .container{
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 .logo{
     display: flex;
@@ -17,6 +17,14 @@ background: rgb(21,114,161); */
     font-family: sans-serif;
     font-weight: bold;
     color:gray ;
+}
+.logo img{
+    display: none;
+}
+.iconify{
+    font-size: 25px;
+    margin-right: 5px;
+    color:#9AD0E1 ;
 }
 .mainhead{
     position: relative;
@@ -68,32 +76,21 @@ background: rgb(21,114,161); */
 .menu .products-list,
 .menu .resources-list,
 .menu .more-list{
-    padding: 20px;
-    box-sizing: border-box;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: -350px;
-    opacity: 0;
-    max-width: fit-content;
-    transition:all .5s ease-in-out;
-    gap: 20px;
-    margin: 20px 0;
-    border-radius: .3em;
-    text-transform: capitalize;
-    font-family: sans-serif;
+    display: none;
 }
 .loginbtn{
     background: none;
     border: none;
+    font-size: 12px;
     padding: 0 5px;
 }
 .signUpbtn{
     border: none;
-    padding: 10px;
+    padding: 5px 10px;
     background-color:#EFDAD7 ;
-    border-radius: 1em;
+    border-radius: .7em;
     border-bottom: 1px solid grey;
+    font-size: 12px;
 }
 
 .action{
@@ -131,7 +128,7 @@ background: rgb(21,114,161); */
     left: 50%;
     transform: translate(-50%);
     font-family: sans-serif;
-    width: 80%;
+    width: 90%;
     max-width: 420px;
     font-size: 35px;
 }
@@ -147,9 +144,12 @@ background: rgb(21,114,161); */
     .container{
         padding: 10px 40px;
     }
-    .menubar{
+    .iconify{
         display: none;
     }
+    .logo img{
+    display: block;
+}
     .menu .features,
     .menu .products,
     .menu .resources,
