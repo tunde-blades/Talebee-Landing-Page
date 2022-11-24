@@ -65,6 +65,7 @@ aside::-webkit-scrollbar-thumb {
     padding-right: 5px;
     color:#9AD0E1 ;
     cursor: pointer;
+    z-index: 500;
 }
 #times{
     display: none;
@@ -72,6 +73,7 @@ aside::-webkit-scrollbar-thumb {
     padding-right: 5px;
     color:#9AD0E1 ;
     cursor: pointer;
+    z-index: 500;
 }
 .mainhead{
     box-sizing: border-box;
