@@ -58,16 +58,14 @@ openNav.style.display = 'flex'
  mobileMenu.style.display = 'none'
 
 openNav.addEventListener('click', ()=>{
-    console.log('workssss');
     if ( mobileMenu.style.display = 'none') { 
-        mobileMenu.style.display = 'flex'
+        mobileMenu.style.display = 'block'
         openNav.style.display = 'none'
         closeNav.style.display = 'flex'
-        console.log('wokrs')
     }
 })
 closeNav.addEventListener('click', ()=>{
-    if ( mobileMenu.style.display = 'flex') {
+    if ( mobileMenu.style.display = 'block') {
         mobileMenu.style.display = 'none'
         openNav.style.display = 'flex'
         closeNav.style.display = 'none'
