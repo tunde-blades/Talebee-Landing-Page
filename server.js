@@ -8,6 +8,12 @@ const prodList = document.querySelector('.products-list')
 const resList = document.querySelector('.resources-list')
 
 
+const openNav = document.querySelector('.bar')
+const closeNav = document.querySelector('.times')
+const mobileMenu = document.querySelector('.sm-menu')
+
+
+
 features.addEventListener('click', ()=>{
 
      prodList.style.top = '-350px'
@@ -45,4 +51,16 @@ products.addEventListener('click', ()=>{
     }else{
         prodList.style.top = '-350px'
     }
+})
+
+
+openNav.addEventListener('click', ()=>{
+    mobileMenu.style.display = 'block'
+    openNav.style.display = 'none'
+    closeNav.style.display = 'block'
+})
+closeNav.addEventListener('click', ()=>{
+    mobileMenu.style.display = 'none'
+    openNav.style.display = 'block'
+    closeNav.style.display = 'none'
 })

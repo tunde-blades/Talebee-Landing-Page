@@ -9,6 +9,43 @@ background: rgb(21,114,161); */
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  padding: 2px;
+  border: 1px solid grey;
+  border-radius: 1em;
+}
+ 
+body::-webkit-scrollbar-thumb {
+    width: 5px;
+    border: 1px solid;
+  background-color: #9AD0E1;
+  border-radius: 1em;
+  outline: 1px solid rgb(218, 227, 235);
+}
+
+aside::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+aside::-webkit-scrollbar-track {
+  padding: 2px;
+  border: 1px solid grey;
+  border-radius: 1em;
+}
+ 
+aside::-webkit-scrollbar-thumb {
+    width: 5px;
+  background-color: #E3BEC6;
+  border-radius: 1em;
+  border: 1px solid grey;
+  outline: 1px solid rgb(218, 227, 235);
+}
+
 .container{
     padding: 5px 10px;
 }
@@ -27,6 +64,10 @@ background: rgb(21,114,161); */
     margin-right: 5px;
     color:#9AD0E1 ;
     cursor: pointer;
+}
+.times{
+    display: none;
+    transition: all 1s ease-in;
 }
 .mainhead{
     box-sizing: border-box;
@@ -53,6 +94,7 @@ background: rgb(21,114,161); */
     display: none;
 }
 .sm-menu{
+    display: none;
     height: 100vh;
     box-sizing: border-box;
     position: absolute;
@@ -167,6 +209,12 @@ background: rgb(21,114,161); */
         padding: 10px 40px;
     }
     .iconify{
+        display: none;
+    }
+    .bar{
+        display: none;
+    }
+    .times{
         display: none;
     }
     .logo img{
