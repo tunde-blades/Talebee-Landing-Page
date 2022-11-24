@@ -58,10 +58,12 @@ openNav.style.display = 'flex'
  mobileMenu.style.display = 'none'
 
 openNav.addEventListener('click', ()=>{
+    console.log('workssss');
     if ( mobileMenu.style.display = 'none') { 
         mobileMenu.style.display = 'flex'
         openNav.style.display = 'none'
         closeNav.style.display = 'flex'
+        console.log('wokrs')
     }
 })
 closeNav.addEventListener('click', ()=>{
