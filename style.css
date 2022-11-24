@@ -9,6 +9,12 @@ background: rgb(21,114,161); */
     text-decoration: none;
     scroll-behavior: smooth;
 }
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    opacity: 80%;
+}
 
 body::-webkit-scrollbar {
   width: 10px;
@@ -207,6 +213,47 @@ aside::-webkit-scrollbar-thumb {
     color: #9AD0E1;
 }
 
+.blg-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.blg-btn button{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: .2em;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: none;
+    box-shadow: 0 2px 2px rgba(128, 128, 128, 0.993);
+}
+.blg-content{
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+.blg-content li{
+    display: flex;
+    flex-direction: column;
+}
+   .blg-content li p{
+    margin: 20px 0;
+   }
+.blg-content li button{
+    width: fit-content;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
 
 
 
@@ -327,6 +374,63 @@ aside::-webkit-scrollbar-thumb {
         font-family: sans-serif;
         width: 350px;
         font-size: 35px;
+    }
+        
+    i{
+        color: grey;
+    }
+    .blg{
+        margin-top: 50px;
+    }
+    .blg-box{
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    .blg-btn{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .blg-btn button{
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: .2em;
+        border: none;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        background: none;
+        box-shadow: 0 2px 2px rgba(128, 128, 128, 0.993);
+    }
+    .blg-content{
+        display: flex;
+        width: 100%;
+        left: 0;
+        text-align: left;
+        transform: translate(0);
+        /* max-width: 400px; */
+        margin-left: 15%;
+    }
+    .blg-content li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:  20px;
+        border-radius: .5em;
+    }
+    .blg-content li h1{
+        font-size: 27px;
+    }
+    .blg-content li button{
+        width: fit-content;
+        padding:5px 10px;
+        border-radius: .5em;
+        border: 1px solid gray;
+        left: 0;
+        transform: translate(0);
     }
 
 }
