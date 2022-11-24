@@ -35,10 +35,17 @@ resources.addEventListener('click', ()=>{
     if (resList.style.top = '-350px') {
         resList.style.top = '20px'
         resList.style.opacity ='1'
-    }else{
+    }else if(resList.style.top = '20px'){
         resList.style.top = '-350px'
     }
 })
+// resources.addEventListener('click', ()=>{
+
+//     if (resList.style.top = '20px') {
+//         resList.style.top = '-350px'
+//         resList.style.opacity ='1'
+//     }
+// })
 products.addEventListener('click', ()=>{
 
     featList.style.top = '-350px'
