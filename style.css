@@ -59,15 +59,15 @@ aside::-webkit-scrollbar-thumb {
 .logo img{
     display: none;
 }
-#bar{
-   display: block;
+.logo #bar{
+   display: flex;
      font-size: 25px;
     padding-right: 5px;
     color:#9AD0E1 ;
     cursor: pointer;
     z-index: 500;
 }
-#times{
+.logo #times{
     display: none;
      font-size: 25px;
     padding-right: 5px;
@@ -220,13 +220,10 @@ aside::-webkit-scrollbar-thumb {
     .container{
         padding: 10px 40px;
     }
-    .iconify{
+    #bar{
         display: none;
     }
-    .bar{
-        display: none;
-    }
-    .times{
+    #times{
         display: none;
     }
     .logo img{

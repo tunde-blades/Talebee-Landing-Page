@@ -53,21 +53,21 @@ products.addEventListener('click', ()=>{
     }
 })
 
-openNav.style.display = 'block'
+openNav.style.display = 'flex'
  closeNav.style.display = 'none'
  mobileMenu.style.display = 'none'
 
 openNav.addEventListener('click', ()=>{
     if ( mobileMenu.style.display = 'none') { 
-        mobileMenu.style.display = 'block'
+        mobileMenu.style.display = 'flex'
         openNav.style.display = 'none'
-        closeNav.style.display = 'block'
+        closeNav.style.display = 'flex'
     }
 })
 closeNav.addEventListener('click', ()=>{
-    if ( mobileMenu.style.display = 'block') {
+    if ( mobileMenu.style.display = 'flex') {
         mobileMenu.style.display = 'none'
-        openNav.style.display = 'block'
+        openNav.style.display = 'flex'
         closeNav.style.display = 'none'
     }
 })
