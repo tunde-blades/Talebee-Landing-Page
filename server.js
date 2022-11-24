@@ -53,7 +53,9 @@ products.addEventListener('click', ()=>{
     }
 })
 
-
+openNav.style.display = 'block'
+ closeNav.style.display = 'none'
+ 
 openNav.addEventListener('click', ()=>{
     if ( mobileMenu.style.display = 'none') { 
         mobileMenu.style.display = 'block'
