@@ -55,12 +55,16 @@ products.addEventListener('click', ()=>{
 
 
 openNav.addEventListener('click', ()=>{
-    mobileMenu.style.display = 'block'
-    openNav.style.display = 'none'
-    closeNav.style.display = 'block'
+    if ( mobileMenu.style.display = 'none') { 
+        mobileMenu.style.display = 'block'
+        openNav.style.display = 'none'
+        closeNav.style.display = 'block'
+    }
 })
 closeNav.addEventListener('click', ()=>{
-    mobileMenu.style.display = 'none'
-    openNav.style.display = 'block'
-    closeNav.style.display = 'none'
+    if ( mobileMenu.style.display = 'block') {
+        mobileMenu.style.display = 'none'
+        openNav.style.display = 'block'
+        closeNav.style.display = 'none'
+    }
 })
