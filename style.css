@@ -147,6 +147,9 @@ aside::-webkit-scrollbar-thumb {
     font-size: 12px;
     padding: 0 5px;
 }
+.loginbtn a{
+    color: black;
+}
 .signUpbtn{
     border: none;
     padding: 5px 10px;
@@ -154,6 +157,9 @@ aside::-webkit-scrollbar-thumb {
     border-radius: .7em;
     border-bottom: 1px solid grey;
     font-size: 12px;
+}
+.signUpbtn a{
+    color: black;
 }
 
 .action{
