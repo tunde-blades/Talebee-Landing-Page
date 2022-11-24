@@ -59,7 +59,7 @@ aside::-webkit-scrollbar-thumb {
 .logo img{
     display: none;
 }
-.logo #bar{
+ #bar{
    display: flex;
      font-size: 25px;
     padding-right: 5px;
@@ -67,7 +67,7 @@ aside::-webkit-scrollbar-thumb {
     cursor: pointer;
     z-index: 500;
 }
-.logo #times{
+ #times{
     display: none;
      font-size: 25px;
     padding-right: 5px;
@@ -220,7 +220,7 @@ aside::-webkit-scrollbar-thumb {
     .container{
         padding: 10px 40px;
     }
-    #bar{
+     #bar{
         display: none;
     }
     #times{
