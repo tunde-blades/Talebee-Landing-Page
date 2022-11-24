@@ -8,8 +8,8 @@ const prodList = document.querySelector('.products-list')
 const resList = document.querySelector('.resources-list')
 
 
-const openNav = document.querySelector('.bar')
-const closeNav = document.querySelector('.times')
+const openNav = document.querySelector('#bar')
+const closeNav = document.querySelector('#times')
 const mobileMenu = document.querySelector('.sm-menu')
 
 
