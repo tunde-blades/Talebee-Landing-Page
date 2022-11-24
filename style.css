@@ -59,14 +59,20 @@ aside::-webkit-scrollbar-thumb {
 .logo img{
     display: none;
 }
-.iconify{
-    font-size: 25px;
+.bar{
+   display: block;
+     font-size: 25px;
     margin-right: 5px;
     color:#9AD0E1 ;
     cursor: pointer;
+    transition: all 1s ease-in;
 }
 .times{
     display: none;
+     font-size: 25px;
+    margin-right: 5px;
+    color:#9AD0E1 ;
+    cursor: pointer;
     transition: all 1s ease-in;
 }
 .mainhead{
