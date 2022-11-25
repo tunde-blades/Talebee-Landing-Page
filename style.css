@@ -29,7 +29,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     width: 5px;
     border: 1px solid;
-  background-color: #9AD0E1;
+  background-color: #E3BEC6;
   border-radius: 1em;
   outline: 1px solid rgb(218, 227, 235);
 }
@@ -171,7 +171,7 @@ aside::-webkit-scrollbar-thumb {
     padding: 8px 20px;
     border-radius: 1em;
     border-bottom: 1px solid grey;
-    background-color: #9AD0E1;
+    background-color:  #1572A1;
     color: white;
     cursor: pointer;
     margin-bottom: 10px;
@@ -208,7 +208,7 @@ aside::-webkit-scrollbar-thumb {
 }
 .ur-business span{
     text-decoration: underline;
-    color: #9AD0E1;
+    color: #1572A1;
 }
 i{
     color: grey;
@@ -463,6 +463,41 @@ i{
         border: 1px solid gray;
         left: 0;
         transform: translate(0);
+    }
+    .mks{
+        box-sizing: border-box;
+        background: linear-gradient(100deg, #9AD0E1,white);
+        padding: 20px;
+    }
+    .mks-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mks-box .iconify{
+        color: #1572A1;
+        font-size: 25px;
+    }
+    .mks-box div{
+        position: relative;
+        box-sizing: border-box;
+        margin-top: 10px;
+        background-color: ;
+        box-shadow: 2px 2px 2px  #18181834;
+         padding: 20px;
+         border: 1px solid rgba(128, 128, 128, 0.562);
+         border-radius: .5em;
+         height: 250px;
+         width: 200px;
+         text-align: right;
+    }
+    .mks-box div h1{
+        width: 90%;
+        font-size: 20px;
+        font-family: monospace;
+        position: absolute;
+        bottom: 50px;
+        right: 10px;
+        color: #1572A1;
     }
 
 
