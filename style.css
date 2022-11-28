@@ -270,7 +270,6 @@ i{
     padding:5px 10px;
     border-radius: .5em;
     border: 1px solid gray;
-
 }
 
 
@@ -466,7 +465,7 @@ i{
     }
     .mks{
         box-sizing: border-box;
-        background: linear-gradient(100deg, #9AD0E1,white);
+        background: linear-gradient(180deg,white,  #EFDAD7);
         padding: 20px;
     }
     .mks-box{
@@ -499,7 +498,40 @@ i{
         right: 10px;
         color: #1572A1;
     }
+    .all-content{
+        display: flex;
+        position: relative;
+    }
+    .all-text{
+        position: relative;
+    }
+    .text-float{
+        position: absolute;
+        bottom: 60px;
+        color: #EFDAD7;
+        width: 80%;
+        padding: 20px;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    .text-float h3{
+        font-size: 35px;
+    }
 
+    .all-text img{
+       filter: brightness(20%);
+    }
+    .all-content img{
+        width: 100%;
+        max-height:700px;
+    }
+        .all-content button{
+            margin-top: 30px;
+            padding:8px 20px;
+            border: none;
+            border-radius: .3em;
+            background-color: #1572A1;
+            color: white;
+        }
 
 }
 
