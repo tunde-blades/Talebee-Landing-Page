@@ -290,7 +290,7 @@ i{
 }
 .mks::-webkit-scrollbar-track {
   border: none;
-  margin-left: 100px;
+  margin:0 20px;
 }
 .mks::-webkit-scrollbar-thumb {
     max-width: 1px;
@@ -300,7 +300,7 @@ i{
   outline: 1px solid rgb(218, 227, 235);
 }
     .mks-box{
-        width: 140vw;
+        width: 650px;
         display: flex;
         overflow: hidden;
         justify-content: space-between;
