@@ -217,6 +217,9 @@ aside::-webkit-scrollbar-thumb {
 i{
     color: grey;
 }
+.blg{
+    margin: 50px 0;
+}
 .blg-btn{
     display: flex;
     align-items: center;
@@ -284,7 +287,6 @@ i{
         position: relative;
         overflow: scroll;
         padding: 20px;
-        margin: 50px 0;
     }
 .mks::-webkit-scrollbar {
   width: .1px;
