@@ -661,8 +661,6 @@ i{
         max-width: 800px;
         overflow: hidden;
         position: relative;
-        /* left: 50%;
-        transform: translate(-50%); */
         display: flex;
         box-sizing: border-box;
         justify-content: space-between;
