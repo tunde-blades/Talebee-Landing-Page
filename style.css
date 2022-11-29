@@ -238,7 +238,7 @@ i{
 .blg{
     margin: 50px 0;
     background:linear-gradient(to bottom, #E3BEC6, white);
-    z-index: 400;
+    /* z-index: -1; */
     padding: 0;
 }
 .blg-btn{
@@ -246,11 +246,12 @@ i{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    padding-top: 20px;
     overflow: hidden;
 }
 .blg-btn li{
     position: relative;
-    z-index: 50;
+    /* z-index: 50; */
 }
 .blg-btn .btn img{
     display: none;
@@ -282,7 +283,7 @@ i{
     text-align: center;
     width: 70%;
     max-width: 500px;
-    z-index: 5000;
+    /* z-index: 5000; */
 }
 .blg-content li{
     display: flex;
