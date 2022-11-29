@@ -286,6 +286,7 @@ i{
 }
 .mks::-webkit-scrollbar-track {
   border: none;
+  margin-left: 100px;
 }
 .mks::-webkit-scrollbar-thumb {
     max-width: 1px;
