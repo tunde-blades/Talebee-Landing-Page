@@ -312,7 +312,7 @@ i{
  .mks{
         position: relative;
         overflow: scroll;
-        padding: 20px;
+        padding: 20px 0;
     }
 .mks::-webkit-scrollbar {
   width: .1px;
@@ -329,10 +329,10 @@ i{
   outline: 1px solid rgb(218, 227, 235);
 }
     .mks-box{
-        width: 700px;
+        width: 650px;
         display: flex;
         overflow: hidden;
-        gap: 10px;
+        gap: 15px;
         justify-content: flex-start;
     }
     .mks-box .iconify{
@@ -350,6 +350,7 @@ i{
          height: 250px;
          width: 200px;
          text-align: right;
+         background: linear-gradient(30deg,white , #E3BEC6);
     }
     .mks-box div h1{
         width: 90%;
@@ -653,7 +654,7 @@ i{
     .mks{
         position: relative;
         box-sizing: border-box;
-        padding: 20px;
+        padding: 20px 0;
         overflow: hidden;
     }
     .mks-box{
