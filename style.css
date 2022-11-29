@@ -150,7 +150,7 @@ aside::-webkit-scrollbar-thumb {
     background: none;
     border: none;
     font-size: 12px;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 .loginbtn a{
     color: black;
@@ -165,7 +165,7 @@ aside::-webkit-scrollbar-thumb {
     color: white;
 }
 .signUpbtn a{
-    color: gray;
+    color: black;
     font-weight: bold;
 }
 
