@@ -658,13 +658,12 @@ i{
         overflow: hidden;
     }
     .mks-box{
-        width: 630px;
-        max-width: 800px;
+        width: 100vw;
         overflow: hidden;
         position: relative;
         display: flex;
         box-sizing: border-box;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     .mks-box .iconify{
         color: #1572A1;
@@ -674,13 +673,13 @@ i{
         position: relative;
         box-sizing: border-box;
         margin-top: 10px;
-        background-color: ;
         box-shadow: 2px 2px 2px  #18181834;
          padding: 20px;
          border: 1px solid rgba(128, 128, 128, 0.562);
          border-radius: .5em;
-         height: 250px;
-         width: 200px;
+         /* height: 250px; */
+         min-width: 200px;
+         max-width: 500px;
          text-align: right;
     }
     .mks-box div h1{
