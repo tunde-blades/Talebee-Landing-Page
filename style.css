@@ -154,6 +154,7 @@ aside::-webkit-scrollbar-thumb {
 }
 .loginbtn a{
     color: black;
+    font-weight: bold;
 }
 .signUpbtn{
     border: 1px solid grey;
