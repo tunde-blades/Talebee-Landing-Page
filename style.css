@@ -608,9 +608,11 @@ i{
         position: relative;
         box-sizing: border-box;
         padding: 20px;
+        overflow: hidden;
     }
     .mks-box{
         width: 90vw;
+        overflow: hidden;
         position: relative;
         left: 50%;
         transform: translate(-50%);
