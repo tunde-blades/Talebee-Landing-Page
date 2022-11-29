@@ -267,12 +267,16 @@ i{
 .blg-content li button{
     width: fit-content;
     display: flex;
+    justify-content: center;
+    gap: 5px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
     padding:5px 10px;
     border-radius: .5em;
     border: 1px solid gray;
+    background-color: #1572A1;
+    color: white;
 }
 
  .mks{
