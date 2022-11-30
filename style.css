@@ -221,7 +221,7 @@ aside::-webkit-scrollbar-thumb {
     width: 90%;
     max-width: 420px;
     font-size: 35px;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 .ur-business span{
     text-decoration: underline;
@@ -233,7 +233,7 @@ i{
     color: grey;}
 .blg{
     margin: 50px 0;
-    background:linear-gradient(to bottom, #E3BEC6, white);
+    background:linear-gradient(to bottom, #1572A1, white);
     /* z-index: -1; */
     padding: 0;
 }
@@ -333,7 +333,7 @@ i{
 .text-float{
     position: absolute;
     bottom: 60px;
-    color: #EFDAD7;
+    color: white;
     width: 80%;
     padding: 20px;
     font-family: 'Archivo Black', sans-serif;
@@ -370,7 +370,7 @@ i{
         position: relative;
         overflow: scroll;
         padding: 20px 0;
-        background: linear-gradient(to top, #E3BEC6, white);
+        background: linear-gradient(to top, #1572A1, white);
     }
     .mks::-webkit-scrollbar {
     width: .1px;
@@ -679,7 +679,7 @@ i{
     .text-float{
         position: absolute;
         bottom: 60px;
-        color: #EFDAD7;
+        color: white;
         width: 80%;
         padding: 20px;
         font-family: 'Archivo Black', sans-serif;
