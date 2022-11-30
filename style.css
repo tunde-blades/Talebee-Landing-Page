@@ -410,14 +410,17 @@ i{
          text-align: right;
          background: white;
     }
-    .mks-box div h1{
+     .mks-box div span{
+        font-size: 12px;
         width: 90%;
-        font-size: 20px;
         font-family: monospace;
         position: absolute;
         bottom: 50px;
         right: 10px;
         color: #1572A1;
+     }
+    .mks-box div h1{
+        font-size: 20px;
     }
 
     .your-hand{
@@ -717,7 +720,7 @@ i{
         overflow: hidden;
     }
     .mks-box{
-        max-width: 650px;
+        max-width: 630px;
         overflow: hidden;
         position: relative;
         left: 50%;
