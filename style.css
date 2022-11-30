@@ -404,6 +404,7 @@ i{
         box-shadow: 2px 2px 2px  #18181834;
          padding: 20px;
          border: 1px solid rgba(128, 128, 128, 0.562);
+          border-left: 3px solid #1572A1;
          border-radius: .5em;
          height: 250px;
          width: 200px;
@@ -740,7 +741,7 @@ i{
         box-shadow: 2px 2px 2px  #18181834;
          padding: 20px;
          border: 1px solid rgba(128, 128, 128, 0.562);
-         border-left: 3px solid #1572A1;
+          border-left: 3px solid #1572A1;
          border-radius: .5em;
          min-width: 200px;
          max-width: 500px;
