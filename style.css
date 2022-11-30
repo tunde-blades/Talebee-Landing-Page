@@ -322,6 +322,7 @@ h4{
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    font-family: var(--subheaderFont);
 }
 .all-content{
     margin-bottom: 100px;
