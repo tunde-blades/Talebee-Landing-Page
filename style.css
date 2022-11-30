@@ -385,8 +385,8 @@ i{
 .mks::-webkit-scrollbar-thumb {
     max-width: 1px;
     border: none;
-  background-color: #E3BEC6;
-  /* border-radius: 1em; */
+  background-color: white;
+  border-radius: 1em;
   outline: 1px solid rgb(218, 227, 235);
 }
     .mks-box{
@@ -411,7 +411,7 @@ i{
          height: 250px;
          width: 200px;
          text-align: right;
-         /* background: linear-gradient(30deg,white , #E3BEC6); */
+         background: white;
     }
     .mks-box div h1{
         width: 90%;
