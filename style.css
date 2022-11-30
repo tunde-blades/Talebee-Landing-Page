@@ -708,8 +708,7 @@ i{
         overflow: hidden;
     }
     .mks-box{
-        width: 100vw;
-        max-width: 950px;
+        max-width: 650px;
         overflow: hidden;
         position: relative;
         left: 50%;
