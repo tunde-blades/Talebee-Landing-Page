@@ -308,8 +308,20 @@ i{
     background-color: #1572A1;
     color: white;
 }
+.cml{
+    margin-top: 100px ;
+}
+.cml-head{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    max-width: 550px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
 .all-content{
-    margin: 50px 0;
+    margin-bottom: 100px;
     box-sizing: border-box;
     display: flex;
     position: relative;
