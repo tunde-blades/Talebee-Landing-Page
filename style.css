@@ -382,9 +382,7 @@ i{
     .mks::-webkit-scrollbar-thumb {
         max-width: 1px;
         border: none;
-    background-color: white;
-    /* border-radius: .3em; */
-    /* outline: 1px solid rgb(218, 227, 235); */
+        background-color: white;
     }
     .mks-box{
         width: 650px;
@@ -416,12 +414,13 @@ i{
         width: 90%;
         font-family: monospace;
         position: absolute;
-        bottom: 50px;
+        bottom: 40px;
         right: 10px;
         color: #1572A1;
      }
     .mks-box div h1{
         font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .your-hand{
