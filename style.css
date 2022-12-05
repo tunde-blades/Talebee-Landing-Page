@@ -597,7 +597,7 @@ aside::-webkit-scrollbar-thumb {
     .menu .more-list{
         padding: 20px;
         box-sizing: border-box;
-        background-color:var(--extraColor2);
+        background-color:var(--secondaryColor);
         box-shadow: inset 2px 2px 5px rgba(12, 12, 12, 0.048), inset 2px -2px 5px rgba(12, 12, 12, 0.205);
         border: 1px solid rgba(128, 128, 128, 0.651);
         position: absolute;
