@@ -475,7 +475,6 @@ h4{
     box-sizing: border-box;
     color: white;
     background-color: rgba(0, 0, 0, 0.432);
-    backdrop-filter: ;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -811,6 +810,15 @@ h4{
         .your-hand img{
             width: 100%;
             max-width: 900px;
+        }
+        .new-users{
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+        .new-users h2{
+            left: 30%;
+            width: 50%;
+            text-align: left;
         }
 
 }
