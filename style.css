@@ -290,9 +290,10 @@ aside::-webkit-scrollbar-thumb {
     max-width: 500px;
     font-family: var(--headerFont);
     font-weight: 300;
+    color: var(--secondaryColor);
 }
 .blg-content span{
-    color: var(--secondaryColor);
+    color: var(--extraColor);
 }
 .blg-content li{
     display: flex;
