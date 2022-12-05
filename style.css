@@ -467,6 +467,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .new{
         background-color: black;
+        box-sizing: border-box;
     }
 .new-users{
     position: relative;
