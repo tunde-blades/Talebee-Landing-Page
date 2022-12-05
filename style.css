@@ -823,7 +823,7 @@ aside::-webkit-scrollbar-thumb {
         }
         .new-users{
             background-position: right;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
         }
         .new-users h2{
             left: 30%;
