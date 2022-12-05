@@ -240,10 +240,6 @@ aside::-webkit-scrollbar-thumb {
 }
 
 
-.blg h4{
-    color: grey;
-    margin-bottom: -30px;
- }
 .blg{
     margin: 50px 0;
     background:linear-gradient(to bottom, var(--primaryColor), white);
