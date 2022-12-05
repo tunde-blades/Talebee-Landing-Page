@@ -1,13 +1,16 @@
 :root{
-    --primaryColor: #189AB4 ;
+    --primaryColor: #60A3D9 ;
     --secondaryColor: #05445E  ;
     --extraColor:#E55B13 ;
-    --extraColor2:#BBC6C8;
+    --extraColor2:gray;
     --extraColor3:#E5E3E4;
 ;
 
     --headerFont: 'Archivo Black', sans-serif;
     --subheaderFont: 'Glory', sans-serif;
+}
+h4{
+    color: var(--extraColor2);
 }
 *{
     padding:0;
@@ -233,13 +236,14 @@ aside::-webkit-scrollbar-thumb {
 }
 .ur-business span{
     text-decoration: underline;
-    color: var(--secondaryColor);
+    color: var(--primaryColor);
 }
 
 
-h4{
+.blg h4{
     color: grey;
-    }
+    margin-bottom: -30px;
+ }
 .blg{
     margin: 50px 0;
     background:linear-gradient(to bottom, var(--primaryColor), white);
@@ -290,7 +294,9 @@ h4{
     max-width: 500px;
     font-family: var(--headerFont);
     font-weight: 300;
-    /* z-index: 5000; */
+}
+.blg-content span{
+    color: var(--secondaryColor);
 }
 .blg-content li{
     display: flex;
@@ -309,9 +315,9 @@ h4{
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    padding:5px 10px;
+    padding:10px 20px;
     border-radius: .5em;
-    border: 1px solid gray;
+    border: none;
     background-color: var(--secondaryColor);
     color: white;
 }
@@ -650,9 +656,11 @@ h4{
     }
     .blg-btn{
         margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: column;
         background-color: white;
+        z-index: -1;
     }
     .active img{
     display: inline;
@@ -693,7 +701,6 @@ h4{
     }
     .blg-content li button{
         width: fit-content;
-        padding:5px 10px;
         border-radius: .5em;
         border: 1px solid gray;
         left: 0;
