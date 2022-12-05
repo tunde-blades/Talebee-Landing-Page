@@ -467,7 +467,6 @@ aside::-webkit-scrollbar-thumb {
     }
     .new{
         background-color: black;
-        box-sizing: border-box;
     }
 .new-users{
     position: relative;
@@ -479,6 +478,7 @@ aside::-webkit-scrollbar-thumb {
     height: 50vh;
 }
 .new-users h2{
+    box-sizing: border-box;
     width: 100%;
     box-sizing: border-box;
     color: white;
