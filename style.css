@@ -486,6 +486,7 @@ aside::-webkit-scrollbar-thumb {
     padding: 50px;
     backdrop-filter: blur(2px);
     text-align: center;
+     border: 2px solid var(--extraColor);
 }
 
 
@@ -824,6 +825,8 @@ aside::-webkit-scrollbar-thumb {
             left: 30%;
             width: 50%;
             text-align: left;
+            border: none;
+            border-left: 2px solid var(--extraColor);
         }
 
 }
