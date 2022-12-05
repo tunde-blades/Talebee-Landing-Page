@@ -1,7 +1,7 @@
 :root{
-    --primaryColor: #469597 ;
-    --secondaryColor: #5BA199  ;
-    --extraColor:#DDBEAA ;
+    --primaryColor: #189AB4 ;
+    --secondaryColor: #05445E  ;
+    --extraColor:#E55B13 ;
     --extraColor2:#BBC6C8;
     --extraColor3:#E5E3E4;
 ;
@@ -197,7 +197,7 @@ aside::-webkit-scrollbar-thumb {
     border-radius: 1em;
     border-bottom: 1px solid grey;
     background-color:  var(--extraColor);
-    color: black;
+    color: white;
     cursor: pointer;
     margin-bottom: 10px;
 }
@@ -273,9 +273,9 @@ h4{
     margin: 10px;
     padding: 5px 10px;
     border-radius: .5em 0 ;
-    border: 2px solid var(--extraColor);
+    border: 2px solid var(--secondaryColor);
     background: white;
-    box-shadow: 0 2px 2px var(--extraColor)(128, 128, 128, 0.993);
+    box-shadow: 0 2px 2px var(--secondaryColor)(128, 128, 128, 0.993);
 }
 .blg-content{
     margin-top: 30px;
@@ -669,9 +669,9 @@ h4{
         margin-bottom: 15px;
         padding: 10px;
         border-radius: .5em 0;
-        border: 1px solid var(--extraColor);;
+        border: 1px solid var(--secondaryColor);;
         background: white;
-        box-shadow: 0 2px 2px var(--extraColor);;
+        box-shadow: 0 2px 2px var(--secondaryColor);;
     }
     .blg-content{
         display: flex;
