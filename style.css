@@ -472,6 +472,7 @@ h4{
     height: 70vh;
 }
 .new-users h2{
+    width: 100%;
     box-sizing: border-box;
     color: white;
     background-color: rgba(0, 0, 0, 0.432);
