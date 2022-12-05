@@ -492,6 +492,23 @@ aside::-webkit-scrollbar-thumb {
     text-align: center;
      border: 2px solid var(--extraColor);
 }
+ .sweet-stories{
+            margin: 50px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: var(--subheaderFont);
+        }
+        .sweet-stories img{
+            width: 150%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+        }
 
 
 
@@ -831,6 +848,16 @@ aside::-webkit-scrollbar-thumb {
             text-align: left;
             border: none;
             border-left: 2px solid var(--extraColor);
+        }
+        .sweet-stories{
+            margin: 100px 0;
+            max-width: 800px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            text-transform: capitalize;
         }
 
 }
