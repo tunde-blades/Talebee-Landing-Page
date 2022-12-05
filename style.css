@@ -3,7 +3,7 @@
     --secondaryColor: #05445E;
     --extraColor:#E55B13;
     --extraColor2:rgb(161, 161, 161);
-    --extraColor3:#d4d4d4e3;
+    --extraColor3:#dbdbdb;
 ;
 
     --headerFont: 'Archivo Black', sans-serif;
@@ -36,9 +36,9 @@ h4{
     }
 button:hover, a:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: all .2s ease-in-out;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 body::-webkit-scrollbar {
