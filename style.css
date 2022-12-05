@@ -236,7 +236,7 @@ aside::-webkit-scrollbar-thumb {
 }
 .ur-business span{
     text-decoration: underline;
-    color: var(--primaryColor);
+    color: var(--secondaryColor);
 }
 
 
