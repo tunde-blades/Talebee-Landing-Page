@@ -292,8 +292,11 @@ aside::-webkit-scrollbar-thumb {
     font-weight: 300;
     color: var(--secondaryColor);
 }
+.blg-content h1{
+    font-size: 25px;
+}
 .blg-content span{
-    color: var(--extraColor);
+    color: var(--extraColor3);
 }
 .blg-content li{
     display: flex;
@@ -472,7 +475,7 @@ aside::-webkit-scrollbar-thumb {
     background-size: contain;
     background-position: center;
     background-blend-mode: multiply;
-    height: 70vh;
+    height: 50vh;
 }
 .new-users h2{
     width: 100%;
