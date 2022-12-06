@@ -248,7 +248,7 @@ aside::-webkit-scrollbar-thumb {
 .blg-btn{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 10px;
     padding-top: 20px;
     overflow: hidden;
@@ -712,6 +712,7 @@ aside::-webkit-scrollbar-thumb {
         margin: 0;
         padding: 0;
         display: flex;
+        justify-content: flex-end;
         flex-direction: column;
         background-color: white;
         z-index: -1;
