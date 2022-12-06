@@ -513,23 +513,24 @@ aside::-webkit-scrollbar-thumb {
             transform: translate(-50%);
         }
         .users-box{
+            position: relative;
             width: 100%;
             overflow: hidden;
         }
         .users{
+            position: absolute;
             width: 2000px;
+            gap: 20px;
             text-align: center;
             display: flex;
-            position: relative;
         }
         .users li{
-            margin: 0 10px;
             width: 100px;
         }
         .users li picture{
             background-color: var(--extraColor);
             height: 50px;
-            width: 20px;
+            width: 50px;
             border-radius: 100%;
         }
         .users li img{
