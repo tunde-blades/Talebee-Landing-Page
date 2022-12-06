@@ -2,7 +2,7 @@
     --primaryColor: #60A3D9;
     --secondaryColor: #05445E;
     --extraColor:#E55B13;
-    --extraColor2:rgb(161, 161, 161);
+    --extraColor2:rgb(145, 145, 145);
     --extraColor3:#dbdbdb;
 ;
 
@@ -10,6 +10,8 @@
 }
 h4{
     color: var(--extraColor2);
+    font-family: var(--font);
+    font-weight: 700;
 }
 *{
     padding:0;
@@ -178,26 +180,26 @@ aside::-webkit-scrollbar-thumb {
     padding: 0 15px;
 }
 .loginbtn a{
-    color: black;
+    color: var(--secondaryColor);
     font-weight: bold;
 }
 .signUpbtn{
     border: 1px solid grey;
     padding: 5px 10px;
-    background-color:var(--secondaryColor);
+    background-color:var(--primaryColor);
     border-radius: .5em;
     box-shadow: inset 0 2px 3px rgba(12, 12, 12, 0.205), inset 0 -2px 3px #f8f8f8d0;
     font-size: 12px;
 }
 .signUpbtn a{
-    color: white;
+    color: var(--secondaryColor);
     font-weight: bold;
 }
 
 .action{
     border: none;
     padding: 8px 20px;
-    border-radius: 1em;
+    border-radius: 1em 0 1em 1em;
     border-bottom: 1px solid grey;
     background-color:  var(--extraColor);
     color: white;
@@ -253,7 +255,7 @@ aside::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
     overflow: hidden;
 }
 .blg-btn li{
@@ -272,9 +274,10 @@ aside::-webkit-scrollbar-thumb {
     rotate: 180deg;
 }
 .blg-btn button{
+    width: 90px;
     margin: 5px;
     padding: 5px 5px;
-    border-radius: .5em 0 ;
+    border-radius: .5em ;
     border: 2px solid var(--secondaryColor);
     background: white;
     box-shadow: 0 2px 2px var(--secondaryColor)(128, 128, 128, 0.993);
@@ -288,7 +291,7 @@ aside::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 60%;
+    width: 90%;
     max-width: 500px;
     font-family: var(--font);
     font-weight: 300;
@@ -297,6 +300,13 @@ aside::-webkit-scrollbar-thumb {
 }
 .blg-content h1{
     font-size: 25px;
+}
+.blg h4{
+    color: var(--extraColor2);
+    position: relative;
+    bottom: -30px;
+    padding: 20px;
+    font-size: 17px;
 }
 .blg-content span{
     color:white;
@@ -762,6 +772,12 @@ aside::-webkit-scrollbar-thumb {
     .blg-content li h1{
         font-size: 27px;
     }
+    .blg h4{
+    position: absolute;
+    top: 50px;
+    padding: 0;
+    z-index: 100;
+}
     .blg-content li button{
         width: fit-content;
         border-radius: .5em;
