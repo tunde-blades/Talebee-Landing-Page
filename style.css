@@ -296,8 +296,8 @@ aside::-webkit-scrollbar-thumb {
     font-size: 25px;
 }
 .blg-content span{
-    color: var(--extraColor);
-    text-shadow: 2px 2px var(--secondaryColor);
+    color: var(--secondaryColor);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.438);
    
 }
 .blg-content li{
