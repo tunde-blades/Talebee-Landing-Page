@@ -9,7 +9,7 @@
     --font:  'Poppins', sans-serif;
 }
 h4{
-    color: var(--extraColor2);
+    color: var(--secondaryColor);
     font-family: var(--font);
     font-weight: 700;
 }
@@ -302,7 +302,7 @@ aside::-webkit-scrollbar-thumb {
     font-size: 25px;
 }
 .blg h4{
-    color: var(--extraColor2);
+    color: var(--secondaryColor);
     position: relative;
     bottom: -30px;
     padding: 20px;
