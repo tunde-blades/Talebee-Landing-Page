@@ -390,7 +390,7 @@ aside::-webkit-scrollbar-thumb {
         position: relative;
         overflow: scroll;
         padding: 20px 0;
-        background: linear-gradient(to top, var(--secondaryColor), white);
+        background: var(--secondaryColor);
     }
     .mks::-webkit-scrollbar {
     width: .1px;
@@ -517,7 +517,7 @@ aside::-webkit-scrollbar-thumb {
         }
         .users-box{
             position: relative;
-            width: 100%;
+            width: 100%; 
             height: 25vh;
             overflow: hidden;
         }
