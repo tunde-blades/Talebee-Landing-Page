@@ -6,8 +6,7 @@
     --extraColor3:#dbdbdb;
 ;
 
-    --headerFont: 'Archivo Black', sans-serif;
-    --subheaderFont: 'Glory', sans-serif;
+    --font:  'Poppins', sans-serif;
 }
 h4{
     color: var(--extraColor2);
@@ -83,7 +82,7 @@ aside::-webkit-scrollbar-thumb {
 .logo{
     display: flex;
     align-items: center;
-    font-family: var(--subheaderFont);
+    font-family: var(--font);
     font-weight: bold;
     color:gray ;
 }
@@ -152,7 +151,7 @@ aside::-webkit-scrollbar-thumb {
     padding-left: 10px;
 }
 .sm-navs ol li{
-    font-family: var(--subheaderFont);
+    font-family: var(--font);
     padding: 5px 10px;
     border: 1px solid rgba(128, 128, 128, 0.438);
     border-radius: .3em;
@@ -232,7 +231,8 @@ aside::-webkit-scrollbar-thumb {
     width: 90%;
     max-width: 420px;
     font-size: 35px;
-    font-family: var(--headerFont);
+    font-family: var(--font);
+    font-weight: 700;
 }
 .ur-business span{
     text-decoration: underline;
@@ -242,14 +242,13 @@ aside::-webkit-scrollbar-thumb {
 
 .blg{
     margin: 50px 0;
-    background:linear-gradient(to bottom, var(--secondaryColor), white);
-    /* z-index: -1; */
+    background:var(--secondaryColor);
     padding: 0;
 }
 .blg-btn{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 10px;
     padding-top: 20px;
     overflow: hidden;
@@ -288,16 +287,17 @@ aside::-webkit-scrollbar-thumb {
     text-align: center;
     width: 60%;
     max-width: 500px;
-    font-family: var(--headerFont);
+    font-family: var(--font);
     font-weight: 300;
-    color: var(--secondaryColor);
+    color: white;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.438);
 }
 .blg-content h1{
     font-size: 25px;
 }
 .blg-content span{
-    color: var(--secondaryColor);
-    text-shadow: 2px 2px rgba(255, 255, 255, 0.438);
+    color:white;
+    
    
 }
 .blg-content li{
@@ -306,7 +306,8 @@ aside::-webkit-scrollbar-thumb {
     position: relative;
 }
    .blg-content li p{
-    color: var(--secondaryColor);
+    color: white;
+    text-shadow: none;
     margin-top: 5px;
     margin-bottom: 20px;
    }
@@ -321,7 +322,7 @@ aside::-webkit-scrollbar-thumb {
     padding:10px 20px;
     border-radius: .5em;
     border: none;
-    background-color: var(--secondaryColor);
+    background-color: var(--extraColor);
     color: white;
 }
 .cml{
@@ -334,7 +335,7 @@ aside::-webkit-scrollbar-thumb {
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    font-family: var(--subheaderFont);
+    font-family: var(--font);
 }
 .all-content{
     margin-bottom: 100px;
@@ -355,7 +356,7 @@ aside::-webkit-scrollbar-thumb {
     color: white;
     width: 80%;
     padding: 20px;
-    font-family: var(--subheaderFont);
+    font-family: var(--font);
 }
 .text-float h3{
     font-size: 35px;
@@ -431,7 +432,7 @@ aside::-webkit-scrollbar-thumb {
      .mks-box div span{
         font-size: 12px;
         width: 90%;
-        font-family: var(--subheaderFont);
+        font-family: var(--font);
         position: absolute;
         bottom: 40px;
         right: 10px;
@@ -451,8 +452,7 @@ aside::-webkit-scrollbar-thumb {
         align-items: center;
         justify-content: center;
         text-align: center;
-        text-transform: capitalize;
-        font-family: var(--headerFont);
+        font-family: var(--font);
     }
     .your-hand h1{
         width: 100%;
@@ -504,7 +504,7 @@ aside::-webkit-scrollbar-thumb {
             gap: 20px;
             text-align: center;
             text-transform: capitalize;
-            font-family: var(--subheaderFont);
+            font-family: var(--font);
         }
         .sweet-stories h3{
             color: var(--extraColor);
@@ -529,17 +529,20 @@ aside::-webkit-scrollbar-thumb {
         }
         .users li{
             width: 100px;
+            font-family: var(--font);
         }
         .users li picture{
             background-color: var(--extraColor);
             height: 50px;
             width: 50px;
             border-radius: 100%;
+            box-shadow: 2px 3px 4px rgba(128, 128, 128, 0.76);
         }
         .users li img{
             width: 100%;
             height: 60%;
             border-radius: 100%;
+            /* box-shadow: 2px 2px 2px grey; */
         }
 
 
@@ -666,7 +669,7 @@ aside::-webkit-scrollbar-thumb {
         gap: 20px;
         margin: 20px 0;
         border-radius: .3em;
-        font-family: var(--subheaderFont);
+        font-family: var(--font);
     }
     
     .get-organised{
@@ -774,7 +777,7 @@ aside::-webkit-scrollbar-thumb {
         color: white;
         width: 80%;
         padding: 20px;
-        font-family: var(--subheaderFont);
+        font-family: var(--font);
     }
     .text-float h3{
         font-size: 35px;
@@ -842,7 +845,7 @@ aside::-webkit-scrollbar-thumb {
     .mks-box div h1{
         width: 90%;
         font-size: 20px;
-        font-family: var(--headerFont);
+        font-family: var(--font);
         position: absolute;
         bottom: 50px;
         right: 10px;
