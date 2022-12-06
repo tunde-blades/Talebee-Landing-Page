@@ -296,7 +296,9 @@ aside::-webkit-scrollbar-thumb {
     font-size: 25px;
 }
 .blg-content span{
-    color: var(--extraColor3);
+    color: var(--extraColor);
+    text-shadow: 2px 2px var(--secondaryColor);
+   
 }
 .blg-content li{
     display: flex;
@@ -304,6 +306,7 @@ aside::-webkit-scrollbar-thumb {
     position: relative;
 }
    .blg-content li p{
+    color: var(--secondaryColor);
     margin-top: 5px;
     margin-bottom: 20px;
    }
