@@ -11,9 +11,6 @@
 h4{
     color: var(--extraColor2);
 }
-section{
-    overflow: hidden;
-}
 *{
     padding:0;
     margin:0;
@@ -118,7 +115,6 @@ aside::-webkit-scrollbar-thumb {
     background-color: white;
    padding-top: 20px;
    z-index: 50;
-   overflow: hidden;
 }
 .menu .features,
 .menu .products,
@@ -213,6 +209,7 @@ aside::-webkit-scrollbar-thumb {
     position: relative;
     margin-top: 120px;
     z-index: 1;
+    overflow: hidden;
 }
 .gt-box{
     width: 100%;
@@ -249,6 +246,7 @@ aside::-webkit-scrollbar-thumb {
     margin: 50px 0;
     background:var(--secondaryColor);
     padding: 0;
+    overflow: hidden;
 }
 .blg-btn{
     display: flex;
@@ -275,7 +273,7 @@ aside::-webkit-scrollbar-thumb {
 }
 .blg-btn button{
     margin: 5px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: .5em 0 ;
     border: 2px solid var(--secondaryColor);
     background: white;
@@ -290,8 +288,8 @@ aside::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 80%;
-    max-width: 600px;
+    width: 60%;
+    max-width: 500px;
     font-family: var(--font);
     font-weight: 300;
     color: white;
@@ -332,6 +330,7 @@ aside::-webkit-scrollbar-thumb {
 }
 .cml{
     margin-top: 100px ;
+    overflow: hidden;
 }
 .cml-head{
     text-align: center;
@@ -390,7 +389,9 @@ aside::-webkit-scrollbar-thumb {
         display: flex;
     }
 
-    
+    .mks-container{
+        overflow: hidden;
+    }
  .mks{
         position: relative;
         overflow: scroll;
@@ -458,6 +459,7 @@ aside::-webkit-scrollbar-thumb {
         justify-content: center;
         text-align: center;
         font-family: var(--font);
+        overflow: hidden;
     }
     .your-hand h1{
         width: 100%;
@@ -475,6 +477,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .new{
         background-color: black;
+        overflow: hidden;
     }
 .new-users{
     position: relative;
@@ -486,6 +489,7 @@ aside::-webkit-scrollbar-thumb {
     height: 50vh;
 }
 .new-users h2{
+    box-sizing: border-box;
     width: 100%;
     box-sizing: border-box;
     color: white;
@@ -500,6 +504,7 @@ aside::-webkit-scrollbar-thumb {
      border: 2px solid var(--extraColor);
 }
  .sweet-stories{
+    overflow: hidden;
         margin: 50px 0;
         display: flex;
         flex-direction: column;
@@ -708,8 +713,8 @@ aside::-webkit-scrollbar-thumb {
     .blg-box{
         display: flex;
         margin: 20px 0;
-        overflow: hidden;
-        width: 100%;
+        /* overflow: hidden;
+        width: 100%; */
     }
     .blg-btn{
         margin: 0;
