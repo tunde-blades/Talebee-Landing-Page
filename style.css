@@ -562,6 +562,45 @@ aside::-webkit-scrollbar-thumb {
         height: 50%;
         border-radius: 100%;
     }
+    footer{
+        background-color: var(--secondaryColor);
+        padding: 20px 0;
+    }
+    footer a,
+    footer h4{
+        color: white;
+    }
+    .footer menu{
+        display: flex; 
+        padding-top: 30px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        min-width: 300px;
+    }
+    .footer menu ol{
+        width: 150px;
+        margin: 20px 0;
+    }
+    .follow{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: rebeccapurple;
+    }
+    .follow-icon{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .creation{
+        color: var(--extraColor2);
+    }
 
 
 
