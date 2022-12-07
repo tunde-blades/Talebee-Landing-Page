@@ -580,8 +580,12 @@ aside::-webkit-scrollbar-thumb {
         min-width: 300px;
     }
     .footer menu ol{
-        width: 150px;
+        min-width: 200px;
         margin: 20px 0;
+    }
+    .footer menu ol li{
+        margin: 10px 0;
+        font-family: var(--font);
     }
     .follow{
         display: flex;
@@ -591,8 +595,7 @@ aside::-webkit-scrollbar-thumb {
         background-color:var(--extraColor);
     }
     .follow-box{
-        padding: 10px;
-        width: 40%;
+        width: 70%;
         background-color: var(--extraColor);
         display: flex;
         flex-direction: column;
@@ -604,6 +607,9 @@ aside::-webkit-scrollbar-thumb {
         font-size: 20px;
     }
     .creation{
+        position: relative;
+        bottom: -20px;
+        width: 30%;
         color: var(--extraColor3);
     }
 
