@@ -564,7 +564,7 @@ aside::-webkit-scrollbar-thumb {
     }
     footer{
         background-color: var(--secondaryColor);
-        padding: 20px 0;
+        /* padding: 20px 0; */
     }
     footer a,
     footer h4{
@@ -586,11 +586,15 @@ aside::-webkit-scrollbar-thumb {
     .follow{
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
-        background-color: rebeccapurple;
+        align-items:flex-end ;
+        width: 50%;
+        background-color:var(--extraColor);
+    }
+    .follow-box{
+        width: 40%;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
     }
     .follow-icon{
         display: flex;
@@ -599,7 +603,7 @@ aside::-webkit-scrollbar-thumb {
         font-size: 20px;
     }
     .creation{
-        color: var(--extraColor2);
+        color: var(--extraColor3);
     }
 
 
