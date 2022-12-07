@@ -591,8 +591,9 @@ aside::-webkit-scrollbar-thumb {
         background-color:var(--extraColor);
     }
     .follow-box{
+        padding: 10px;
         width: 40%;
-        background-color: red;
+        background-color: var(--extraColor);
         display: flex;
         flex-direction: column;
     }
