@@ -147,6 +147,7 @@ aside::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     gap: 20px;
+     margin-bottom: 50px;
 }
 .sm-navs ol{
     display: flex;
@@ -167,7 +168,6 @@ aside::-webkit-scrollbar-thumb {
 .sm-navs button{
     margin: 0 10px;
     padding: 10px 0 2px 0;
-    width: 8%;
     text-align: left;
     border: none;
     background: none;

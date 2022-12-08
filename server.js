@@ -69,6 +69,7 @@ openNav.addEventListener('click', ()=>{
         mobileMenu.style.display = 'block'
         openNav.style.display = 'none'
         closeNav.style.display = 'flex'
+        body.style.overflow= 'hidden'
     }
 })
 closeNav.addEventListener('click', ()=>{
@@ -76,6 +77,7 @@ closeNav.addEventListener('click', ()=>{
         mobileMenu.style.display = 'none'
         openNav.style.display = 'flex'
         closeNav.style.display = 'none'
+        body.style.overflow= 'auto'
     }
 })
 
