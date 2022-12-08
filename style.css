@@ -583,6 +583,11 @@ aside::-webkit-scrollbar-thumb {
         min-width: 200px;
         margin: 20px 0;
     }
+    .footer a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
     .footer menu ol li{
         margin: 10px 0;
         font-family: var(--font);

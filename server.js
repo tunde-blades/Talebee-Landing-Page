@@ -11,6 +11,7 @@ const resList = document.querySelector('.resources-list')
 const openNav = document.querySelector('#bar')
 const closeNav = document.querySelector('#times')
 const mobileMenu = document.querySelector('.sm-menu')
+const navs = document.querySelector('aside')
 
 
 
@@ -77,4 +78,10 @@ closeNav.addEventListener('click', ()=>{
         openNav.style.display = 'flex'
         closeNav.style.display = 'none'
     }
+})
+
+navs.addEventListener('mouseout', ()=>{
+    prodList.style.top = '-350px'
+    resList.style.top = '-350px'
+    featList.style.top = '-350px'
 })
