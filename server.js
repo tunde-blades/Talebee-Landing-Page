@@ -12,6 +12,7 @@ const openNav = document.querySelector('#bar')
 const closeNav = document.querySelector('#times')
 const mobileMenu = document.querySelector('.sm-menu')
 const backdrop = document.querySelector('.bkdrop')
+const body = document.querySelector('body')
 
 
 
@@ -20,6 +21,8 @@ features.addEventListener('click', ()=>{
      prodList.style.top = '-350px'
      resList.style.top = '-350px'
      backdrop.style.display='block'
+     body.style.overflow= 'hidden'
+
 
     if (featList.style.top = '-350px') {
         featList.style.top = '20px'
@@ -32,6 +35,7 @@ resources.addEventListener('click', ()=>{
     featList.style.top = '-350px'
      prodList.style.top = '-350px'
      backdrop.style.display='block'
+     body.style.overflow= 'hidden'
 
     if (resList.style.top = '-350px') {
         resList.style.top = '20px'
@@ -43,6 +47,7 @@ products.addEventListener('click', ()=>{
     featList.style.top = '-350px'
     resList.style.top = '-350px'
     backdrop.style.display='block'
+    body.style.overflow= 'hidden'
 
     prodList.style.top = '-350px'
     if (prodList.style.top = '-350px') {
@@ -56,6 +61,7 @@ backdrop.addEventListener('mouseover', ()=>{
     resList.style.top = '-350px'
     featList.style.top = '-350px'
     backdrop.style.display='none'
+    body.style.overflow ='auto'
 })
 
 openNav.addEventListener('click', ()=>{
