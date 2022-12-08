@@ -88,6 +88,7 @@ aside::-webkit-scrollbar-thumb {
     font-family: var(--font);
     font-weight: bold;
     color:gray ;
+    z-index: 100;
 }
 .logo img{
     display: none;
@@ -663,6 +664,18 @@ aside::-webkit-scrollbar-thumb {
     .logo img{
     display: block;
     }
+    .bkdrop{
+        display: none;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        width: 98vw;
+        height: 100vh;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.63);
+        z-index: -1;
+        backdrop-filter: blur(5px);
+    }
     .menu{
         display: flex;
         align-items: center;
@@ -670,6 +683,7 @@ aside::-webkit-scrollbar-thumb {
         right: 20px;
         width: 70%;
         max-width: 600px;
+        z-index: 10;
     }
     .menu .navs{
         padding: 10px 0;
@@ -678,6 +692,7 @@ aside::-webkit-scrollbar-thumb {
         width: 100%;
         justify-content: space-between;
         background-color: white;
+        /* z-index: 100; */
     }
     .menu .navs ol{
         z-index: -1;
@@ -743,6 +758,7 @@ aside::-webkit-scrollbar-thumb {
         margin: 20px 0;
         border-radius: .3em;
         font-family: var(--font);
+        z-index: -1;
     }
     
     .get-organised{

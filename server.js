@@ -11,7 +11,7 @@ const resList = document.querySelector('.resources-list')
 const openNav = document.querySelector('#bar')
 const closeNav = document.querySelector('#times')
 const mobileMenu = document.querySelector('.sm-menu')
-const navs = document.querySelector('aside')
+const backdrop = document.querySelector('.bkdrop')
 
 
 
@@ -19,12 +19,11 @@ features.addEventListener('click', ()=>{
 
      prodList.style.top = '-350px'
      resList.style.top = '-350px'
+     backdrop.style.display='block'
 
     if (featList.style.top = '-350px') {
         featList.style.top = '20px'
         featList.style.opacity ='1'
-    }else{
-        featList.style.top = '-350px'
     }
 })
 
@@ -32,38 +31,32 @@ resources.addEventListener('click', ()=>{
 
     featList.style.top = '-350px'
      prodList.style.top = '-350px'
+     backdrop.style.display='block'
 
     if (resList.style.top = '-350px') {
         resList.style.top = '20px'
         resList.style.opacity ='1'
-    }else if(resList.style.top = '20px'){
-        resList.style.top = '-350px'
     }
 })
-// resources.addEventListener('click', ()=>{
-
-//     if (resList.style.top = '20px') {
-//         resList.style.top = '-350px'
-//         resList.style.opacity ='1'
-//     }
-// })
 products.addEventListener('click', ()=>{
 
     featList.style.top = '-350px'
     resList.style.top = '-350px'
+    backdrop.style.display='block'
 
     prodList.style.top = '-350px'
     if (prodList.style.top = '-350px') {
         prodList.style.top = '20px'
         prodList.style.opacity ='1'
-    }else{
-        prodList.style.top = '-350px'
     }
 })
 
-// openNav.style.display = 'flex'
-//  closeNav.style.display = 'none'
-//  mobileMenu.style.display = 'none'
+backdrop.addEventListener('mouseover', ()=>{
+    prodList.style.top = '-350px'
+    resList.style.top = '-350px'
+    featList.style.top = '-350px'
+    backdrop.style.display='none'
+})
 
 openNav.addEventListener('click', ()=>{
     if ( mobileMenu.style.display = 'none') { 
@@ -78,10 +71,4 @@ closeNav.addEventListener('click', ()=>{
         openNav.style.display = 'flex'
         closeNav.style.display = 'none'
     }
-})
-
-navs.addEventListener('mouseout', ()=>{
-    prodList.style.top = '-350px'
-    resList.style.top = '-350px'
-    featList.style.top = '-350px'
 })
