@@ -255,6 +255,7 @@ aside::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 10px;
     padding-top: 50px;
     overflow: hidden;
@@ -277,10 +278,11 @@ aside::-webkit-scrollbar-thumb {
 .blg-btn button{
     width: 90px;
     margin: 5px;
-    padding: 5px 5px;
+    padding: 10px;
     border-radius: .5em ;
     border: 2px solid var(--secondaryColor);
-    background: white;
+    background-color:var(--extraColor3);
+        box-shadow: inset 0 2px 3px rgba(12, 12, 12, 0.041), inset 0 -2px 3px #f8f8f8a1;
     box-shadow: 0 2px 2px var(--secondaryColor)(128, 128, 128, 0.993);
 }
 .blg-content{
