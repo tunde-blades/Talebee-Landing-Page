@@ -96,29 +96,29 @@ const developersCont = document.querySelector('.developer-cont')
 creatorsCont.style.right = '0'
 creatorsBtn.addEventListener('click',()=>{
     creatorsCont.style.right = '0'
-    publishersCont.style.right = '-1000px'
-    businessCont.style.right = '-1000px'
-    developersCont.style.right = '-1000px'
+    publishersCont.style.right = '-1500px'
+    businessCont.style.right = '-1500px'
+    developersCont.style.right = '-1500px'
 })
 
 publishersBtn.addEventListener('click',()=>{
     publishersCont.style.position = 'absolute'
     publishersCont.style.right = '0px'
-    creatorsCont.style.right = '-1000px'
-     businessCont.style.right = '-1000px'
-    developersCont.style.right = '-1000px'
+    creatorsCont.style.right = '-1500px'
+     businessCont.style.right = '-1500px'
+    developersCont.style.right = '-1500px'
 })
 businessBtn.addEventListener('click',()=>{
-    publishersCont.style.right = '-1000px'
-    creatorsCont.style.right = '-1000px'
+    publishersCont.style.right = '-1500px'
+    creatorsCont.style.right = '-1500px'
      businessCont.style.position = 'absolute'
      businessCont.style.right = '0px'
-    developersCont.style.right = '-1000px'
+    developersCont.style.right = '-1500px'
 })
 developersBtn.addEventListener('click',()=>{
-    publishersCont.style.right = '-1000px'
-    creatorsCont.style.right = '-1000px'
-     businessCont.style.right = '-1000px'
+    publishersCont.style.right = '-1500px'
+    creatorsCont.style.right = '-1500px'
+     businessCont.style.right = '-1500px'
       developersCont.style.position = 'absolute'
     developersCont.style.right = '0px'
 })
