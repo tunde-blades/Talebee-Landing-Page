@@ -326,8 +326,9 @@ aside::-webkit-scrollbar-thumb {
     padding: 30px 0;
     right: -1500px;
     min-width: 100%;
+    max-width: 400px;
     min-height: 200px;
-    transition: all .5s ease-in-out;
+    transition: all 1s ;
 }
 
    .blg-content li p{
