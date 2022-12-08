@@ -316,11 +316,19 @@ aside::-webkit-scrollbar-thumb {
     
    
 }
-.blg-content li{
+.blg-content .create-cont,
+.blg-content .publish-cont,
+.blg-content  .business-cont,
+.blg-content  .developer-cont{
     display: flex;
     flex-direction: column;
     position: relative;
+    right: -1500px;
+    min-width: 100%;
+    min-height: 200px;
+    transition: all .5s ease-in-out;
 }
+
    .blg-content li p{
     color: white;
     text-shadow: none;
@@ -800,13 +808,16 @@ aside::-webkit-scrollbar-thumb {
         width: 100%; */
     }
     .blg-btn{
+        position: relative;
+        height: 250px;
+        top: 80px;
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
         background-color: white;
-        z-index: -1;
+        z-index: 100;
     }
     .active img{
     display: inline;
@@ -829,7 +840,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .blg-content{
         display: flex;
-        width: 100%;
+        width:100%;
         left: 0;
         text-align: left;
         transform: translate(0);
@@ -841,6 +852,7 @@ aside::-webkit-scrollbar-thumb {
         justify-content: space-between;
         padding:  20px;
         border-radius: .5em;
+        min-width: 100%;
     }
     .blg-content li h1{
         font-size: 27px;

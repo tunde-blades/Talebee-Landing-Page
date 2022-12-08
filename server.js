@@ -78,3 +78,47 @@ closeNav.addEventListener('click', ()=>{
         closeNav.style.display = 'none'
     }
 })
+
+
+
+// displaying where you belong contents
+
+const creatorsBtn = document.querySelector('.createbtn')
+const publishersBtn = document.querySelector('.publishbtn')
+const businessBtn = document.querySelector('.businessbtn')
+const developersBtn = document.querySelector('.developerbtn')
+
+const creatorsCont = document.querySelector('.create-cont')
+const publishersCont = document.querySelector('.publish-cont')
+const businessCont = document.querySelector('.business-cont')
+const developersCont = document.querySelector('.developer-cont')
+
+creatorsCont.style.right = '0'
+creatorsBtn.addEventListener('click',()=>{
+    creatorsCont.style.right = '0'
+    publishersCont.style.right = '-1000px'
+    businessCont.style.right = '-1000px'
+    developersCont.style.right = '-1000px'
+})
+
+publishersBtn.addEventListener('click',()=>{
+    publishersCont.style.position = 'absolute'
+    publishersCont.style.right = '0px'
+    creatorsCont.style.right = '-1000px'
+     businessCont.style.right = '-1000px'
+    developersCont.style.right = '-1000px'
+})
+businessBtn.addEventListener('click',()=>{
+    publishersCont.style.right = '-1000px'
+    creatorsCont.style.right = '-1000px'
+     businessCont.style.position = 'absolute'
+     businessCont.style.right = '0px'
+    developersCont.style.right = '-1000px'
+})
+developersBtn.addEventListener('click',()=>{
+    publishersCont.style.right = '-1000px'
+    creatorsCont.style.right = '-1000px'
+     businessCont.style.right = '-1000px'
+      developersCont.style.position = 'absolute'
+    developersCont.style.right = '0px'
+})
