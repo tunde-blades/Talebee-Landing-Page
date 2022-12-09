@@ -292,7 +292,7 @@ aside::-webkit-scrollbar-thumb {
     left: 50%;
     transform: translate(-50%);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     width: 90%;
     max-width: 500px;
@@ -812,6 +812,7 @@ aside::-webkit-scrollbar-thumb {
     .blg-btn{
         position: relative;
         height: 250px;
+        min-width: 100px;
         top: 80px;
         margin: 0;
         padding: 0;
@@ -841,6 +842,7 @@ aside::-webkit-scrollbar-thumb {
         box-shadow: 0 2px 2px var(--secondaryColor);;
     }
     .blg-content{
+        margin-top: 70px;
         display: flex;
         width:100%;
         left: 0;
