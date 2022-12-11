@@ -181,7 +181,7 @@ aside::-webkit-scrollbar-thumb {
 .loginbtn{
     background: none;
     border: none;
-    font-size: 12px;
+    font-size: 15px;
     padding: 0 15px;
 }
 .loginbtn a{
@@ -190,14 +190,14 @@ aside::-webkit-scrollbar-thumb {
 }
 .signUpbtn{
     border: 1px solid grey;
-    padding: 3px 10px;
-    background-color:var(--primaryColor);
+    padding: 8px 10px;
+    background-color:var(--secondaryColor);
     border-radius: .5em;
     box-shadow: inset 0 2px 3px rgba(12, 12, 12, 0.205), inset 0 -2px 3px #f8f8f8d0;
-    font-size: 12px;
+    font-size: 15px;
 }
 .signUpbtn a{
-    color: var(--secondaryColor);
+    color: white;
     font-weight: bold;
 }
 
@@ -475,7 +475,7 @@ aside::-webkit-scrollbar-thumb {
         margin-bottom: 10px;
     }
 
-    .your-hand{
+    .tell-story{
         margin: 100px 0;
         position: relative;
         box-sizing: border-box;
@@ -487,19 +487,25 @@ aside::-webkit-scrollbar-thumb {
         font-family: var(--font);
         overflow: hidden;
     }
-    .your-hand h1{
-        width: 100%;
+    .tell-story h1{
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
         font-size: 40px;
     }
-    .your-hand p{
+    .tell-story p{
         position: relative;
         left: 50%;
         transform: translate(-50%);
         width: 70%;
     }
-    .your-hand img{
+    .tell-story img{
         width: 100%;
-        max-width: 900px;
+        max-width: 1000px;
+    }
+    .storyimg{
+        display: none;
     }
     .new{
         background-color: black;
@@ -740,6 +746,7 @@ aside::-webkit-scrollbar-thumb {
         padding:5px 10px;
         background:none ;
         max-width: fit-content;
+        font-size: 15px;
     }
       .menu .features:hover,
     .menu .products:hover ,
@@ -969,7 +976,7 @@ aside::-webkit-scrollbar-thumb {
         right: 10px;
         color: var(--secondaryColor);
     }
-        .your-hand{
+        .tell-story{
             position: relative;
             box-sizing: border-box;
             display: flex;
@@ -977,20 +984,47 @@ aside::-webkit-scrollbar-thumb {
             align-items: center;
             justify-content: flex-start;
         }
-        .your-hand h1{
+        .tell-story h1{
             width: 100%;
             font-size: 40px;
             text-align: left;
         }
-        .your-hand p{
+        .tell-story p{
             left: 0;
             transform: translate(0);
             text-align: left;
         }
-        .your-hand img{
-            width: 100%;
-            max-width: 900px;
+        .tell-story img{
+            width: 200%;
         }
+         .storyimg{
+            position: relative;
+            display: block;
+            margin-bottom: 50px;
+        }
+        .storyimg .watermark{
+            height: 70px;
+            width: 30%;
+            backdrop-filter: blur(10px);
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: var(--secondaryColor);
+            font-family: cursive;
+        }
+        .storyimg img{
+            width: 100%;
+            height: 100%;
+            box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2), -3px -3px 3px rgba(128, 128, 128, 0.2) ;
+            border-radius: .5em;
+        }
+
+
         .new-users{
             background-position: right;
             background-repeat: repeat-y;
