@@ -507,6 +507,66 @@ aside::-webkit-scrollbar-thumb {
     .storyimg{
         display: none;
     }
+    
+    .manage-container{
+        overflow: hidden;
+    }
+ .manage{
+        position: relative;
+        overflow: scroll;
+        padding: 20px 0;
+    }
+    .manage::-webkit-scrollbar {
+    width: .1px;
+    }
+    .manage::-webkit-scrollbar-track {
+    border: none;
+    margin:0 20px;
+    }
+    .manage::-webkit-scrollbar-thumb {
+        max-width: 1px;
+        border: none;
+        background-color: white;
+    }
+    .manage-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+    }
+    .manage-box .iconify{
+        color: var(--secondaryColor);
+        font-size: 25px;
+    }
+    .manage-box div{
+        position: relative;
+        box-sizing: border-box;
+        margin-top: 10px;
+        box-shadow: 2px 2px 2px  #18181834;
+         padding: 20px;
+         border: 1px solid rgba(128, 128, 128, 0.562);
+          border-left: 3px solid var(--secondaryColor);
+         border-radius: .5em;
+         height: 350px;
+         width: 250px;
+         text-align: right;
+         background: white;
+    }
+     .manage-box div span{
+        font-size: 12px;
+        width: 90%;
+        font-family: var(--font);
+        position: absolute;
+        bottom: 40px;
+        right: 10px;
+        color: var(--secondaryColor);
+     }
+    .manage-box div h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
     .new{
         background-color: black;
         overflow: hidden;
@@ -1023,7 +1083,47 @@ aside::-webkit-scrollbar-thumb {
             box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2), -3px -3px 3px rgba(128, 128, 128, 0.2) ;
             border-radius: .5em;
         }
-
+        .manage{
+        position: relative;
+        box-sizing: border-box;
+        padding: 20px 0;
+        overflow: hidden;
+    }
+    .manage-box{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .manage-box .iconify{
+        color: var(--secondaryColor);
+        font-size: 35px;
+    }
+    .manage-box div{
+        position: relative;
+        box-sizing: border-box;
+        margin-top: 10px;
+        box-shadow: 2px 2px 2px  #18181834;
+         padding: 20px;
+         border: 1px solid rgba(128, 128, 128, 0.562);
+          border-left: 3px solid var(--secondaryColor);
+         border-radius: .5em;
+         min-width: 250px;
+         text-align: right;
+         background: white;
+    }
+    .manage-box div h1{
+        width: 90%;
+        font-size: 20px;
+        font-family: var(--font);
+        position: absolute;
+        bottom: 50px;
+        right: 10px;
+        color: var(--secondaryColor);
+    }
 
         .new-users{
             background-position: right;
