@@ -1093,6 +1093,8 @@ aside::-webkit-scrollbar-thumb {
         }
         .manage{
         position: relative;
+        left: 50%;
+        transform: translate(-50%);
         box-sizing: border-box;
         padding: 20px 0;
         overflow: hidden;
@@ -1119,7 +1121,7 @@ aside::-webkit-scrollbar-thumb {
          border: 1px solid rgba(128, 128, 128, 0.562);
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
-         min-width: 250px;
+         max-width: 250px;
          text-align: right;
          background: white;
     }
@@ -1127,9 +1129,8 @@ aside::-webkit-scrollbar-thumb {
         width: 90%;
         font-size: 20px;
         font-family: var(--font);
-        position: absolute;
-        bottom: 50px;
-        right: 10px;
+        position: relative;
+        right:-18px;
         color: var(--secondaryColor);
     }
 
