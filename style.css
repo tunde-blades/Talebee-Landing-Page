@@ -550,12 +550,12 @@ aside::-webkit-scrollbar-thumb {
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
          height: 350px;
-         width: 250px;
+         width: 100%;
          text-align: right;
          background: white;
     }
      .manage-box div span{
-        font-size: 12px;
+        font-size: 15px;
         width: 90%;
         font-family: var(--font);
         position: absolute;
