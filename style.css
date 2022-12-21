@@ -624,7 +624,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .users{
         position: absolute;
-        max-width: 1300px;
+        max-width: 1400px;
         gap: 20px;
         text-align: center;
         display: flex;
@@ -638,6 +638,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .users li{
         width: 100px;
+        margin: 0 10px;
         font-family: var(--font);
     }
     .users li picture{
