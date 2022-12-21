@@ -39,7 +39,7 @@ button:hover, a:hover{
     cursor: pointer;
     transform: scale(1.04);
     transition: all .2s ease-in-out;
-    opacity: 90%;
+    opacity: 70%;
 }
 
 body::-webkit-scrollbar {
