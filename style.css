@@ -538,7 +538,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .manage-box .iconify{
         color: var(--secondaryColor);
-        font-size: 25px;
+        font-size: 65px;
     }
     .manage-box div{
         position: relative;
