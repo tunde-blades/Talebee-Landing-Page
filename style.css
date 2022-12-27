@@ -549,8 +549,8 @@ aside::-webkit-scrollbar-thumb {
          border: 1px solid rgba(128, 128, 128, 0.562);
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
-         height: 300px;
-         width: 80%;
+         height: 350px;
+         width: 90%;
          text-align: left;
          background: white;
     }

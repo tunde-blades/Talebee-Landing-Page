@@ -185,6 +185,7 @@ let playlist4 =()=>{
 let infinitelist = [playlist1, playlist2, playlist3, playlist4]
 
     let index = 0
+    infinitelist[index]()
     setInterval(() => {
         if(index < infinitelist.length){
                 infinitelist[index]()
