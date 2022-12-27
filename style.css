@@ -911,8 +911,8 @@ aside::-webkit-scrollbar-thumb {
 }
     .blg-btn button{
         margin-left: 5px;
-        margin-top: 5px;
-        margin-bottom: 15px;
+        margin-top: 7px;
+        margin-bottom: 10px;
         padding: 10px;
         border-radius: .5em 0;
         border: 1px solid var(--secondaryColor);;

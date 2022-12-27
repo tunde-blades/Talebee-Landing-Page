@@ -96,11 +96,16 @@ const businessCont = document.querySelector('.business-cont')
 const developersCont = document.querySelector('.developer-cont')
 
 creatorsCont.style.right = '0'
+creatorsBtn.style.background = '#E55B13'
 creatorsBtn.addEventListener('click',()=>{
     creatorsCont.style.right = '0'
     publishersCont.style.right = '-1500px'
     businessCont.style.right = '-1500px'
     developersCont.style.right = '-1500px'
+    creatorsBtn.style.background = '#E55B13'
+    businessBtn.style.background = 'none'
+    publishersBtn.style.background = 'none'
+    developersBtn.style.background= 'none'
 })
 
 publishersBtn.addEventListener('click',()=>{
@@ -109,6 +114,10 @@ publishersBtn.addEventListener('click',()=>{
     creatorsCont.style.right = '-1500px'
      businessCont.style.right = '-1500px'
     developersCont.style.right = '-1500px'
+    creatorsBtn.style.background = 'none'
+    businessBtn.style.background = 'none'
+    publishersBtn.style.background = '#E55B13'
+    developersBtn.style.background = 'none'
 })
 businessBtn.addEventListener('click',()=>{
     publishersCont.style.right = '-1500px'
@@ -116,6 +125,10 @@ businessBtn.addEventListener('click',()=>{
      businessCont.style.position = 'absolute'
      businessCont.style.right = '0px'
     developersCont.style.right = '-1500px'
+    creatorsBtn.style.background = 'none'
+    businessBtn.style.background = '#E55B13'
+    publishersBtn.style.background = 'none'
+    developersBtn.style.background = 'none'
 })
 developersBtn.addEventListener('click',()=>{
     publishersCont.style.right = '-1500px'
@@ -123,6 +136,10 @@ developersBtn.addEventListener('click',()=>{
      businessCont.style.right = '-1500px'
       developersCont.style.position = 'absolute'
     developersCont.style.right = '0px'
+    creatorsBtn.style.background = 'none'
+    businessBtn.style.background= 'none'
+    publishersBtn.style.background = 'none'
+    developersBtn.style.background = '#E55B13'
 })
 
 
