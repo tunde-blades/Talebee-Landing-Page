@@ -1109,6 +1109,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .manage-box{
         display: flex;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
@@ -1126,7 +1127,7 @@ aside::-webkit-scrollbar-thumb {
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
          max-width: 300px;
-         text-align: right;
+         text-align: left;
          background: white;
     }
     .manage-box div h1{
@@ -1134,7 +1135,6 @@ aside::-webkit-scrollbar-thumb {
         font-size: 20px;
         font-family: var(--font);
         position: relative;
-        right:-18px;
         color: var(--secondaryColor);
     }
 
