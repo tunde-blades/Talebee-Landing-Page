@@ -124,3 +124,55 @@ developersBtn.addEventListener('click',()=>{
       developersCont.style.position = 'absolute'
     developersCont.style.right = '0px'
 })
+
+
+
+
+
+
+
+// creators infinite display 
+
+const creator = document.querySelector('.cr')
+const business = document.querySelector('.bs')
+const publish = document.querySelector('.ps')
+const developer = document.querySelector('.dv')
+
+
+
+
+// business.styling = 'none'
+let playlist1 = ()=>{
+    if (business.style.display = 'none' , publish.style.display = 'none', developer.style.display = 'none' ) {
+            creator.style.display = 'flex'
+    }
+}
+let playlist2 = ()=>{
+     if (creator.style.display = 'none' , publish.style.display = 'none', developer.style.display = 'none' ) {
+            business.style.display = 'flex'
+    }
+}
+let playlist3 = ()=>{
+     if (business.style.display = 'none' , publish.style.display = 'none', creator.style.display = 'none' ) {
+            developer.style.display = 'flex'
+    }
+}
+
+let playlist4 =()=>{
+    if(business.style.display = 'none' , creator.style.display = 'none', developer.style.display = 'none' ) {
+            publish.style.display = 'flex'
+    }
+}
+
+
+let infinitelist = [playlist1, playlist2, playlist3, playlist4]
+
+    let index = 0
+    setInterval(() => {
+        if(index < infinitelist.length){
+                infinitelist[index]()
+                index++
+        }else if(index = infinitelist.length){
+             index=0
+        }
+    }, 3000);
