@@ -692,6 +692,7 @@ aside::-webkit-scrollbar-thumb {
         align-items:flex-end ;
         width: 50%;
         background-color:var(--extraColor);
+        padding-bottom: 20px;
     }
     .follow-box{
         width: 70%;
@@ -707,6 +708,7 @@ aside::-webkit-scrollbar-thumb {
     .creation{
         background-color: var(--extraColor);
         position: relative;
+        bottom: -22px;
         width: 30%;
         color: white;
         text-align: center;
