@@ -644,7 +644,7 @@ aside::-webkit-scrollbar-thumb {
         height: 50px;
         width: 50px;
         border-radius: 100%;
-        box-shadow: 2px 3px 4px rgba(128, 128, 128, 0.637);
+        /* box-shadow: 2px 3px 4px rgba(128, 128, 128, 0.637); */
     }
     .users li img{
         width: 80%;
