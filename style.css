@@ -73,7 +73,7 @@ aside::-webkit-scrollbar-track {
 aside::-webkit-scrollbar-thumb {
     width: 5px;
   background-color: var(--extraColor);
-  border-radius: 1em;
+  /* border-radius: 1em; */
   border: 1px solid grey;
   outline: 1px solid rgb(218, 227, 235);
 }
