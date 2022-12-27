@@ -175,4 +175,4 @@ let infinitelist = [playlist1, playlist2, playlist3, playlist4]
         }else if(index = infinitelist.length){
              index=0
         }
-    }, 3000);
+    }, 4000);
