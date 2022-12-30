@@ -931,6 +931,7 @@ aside::-webkit-scrollbar-thumb {
         box-shadow: 0 2px 2px var(--secondaryColor);;
     }
     .blg-content{
+        padding: 0;
         margin-top: 60px;
         display: flex;
         width:100%;
@@ -944,18 +945,18 @@ aside::-webkit-scrollbar-thumb {
         flex-direction: column;
         justify-content: space-between;
         padding:  20px;
-        border-radius: .5em;
+        /* border-radius: .5em; */
         min-width: 100%;
     }
     .blg-content li h1{
         font-size: 27px;
     }
     .blg h4{
-        color: var(--secondaryColor);
-    position: absolute;
-    top: 50px;
-    padding: 0;
-    z-index: 100;
+        color: var(--extraColor2);
+        position: absolute;
+        top: 50px;
+        padding: 0;
+        z-index: 100;
 }
     .blg-content li button{
         width: fit-content;
