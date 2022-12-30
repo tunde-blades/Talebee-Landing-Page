@@ -1,10 +1,14 @@
 const menu = document.querySelector('.menu')
 const features = document.querySelector('.features')
+const ficon = document.querySelector('.ficon')
 const resources = document.querySelector('.resources')
+const ricon = document.querySelector('.ricon')
 const products = document.querySelector('.products')
+
 
 const featList = document.querySelector('.features-list')
 const prodList = document.querySelector('.products-list')
+const picon = document.querySelector('.picon')
 const resList = document.querySelector('.resources-list')
 
 
@@ -22,11 +26,15 @@ features.addEventListener('click', ()=>{
      resList.style.top = '-350px'
      backdrop.style.display='block'
      body.style.overflow= 'hidden'
+     ficon.style.rotate ='0deg'
+    ricon.style.rotate ='0deg'
+    picon.style.rotate ='0deg'
 
 
     if (featList.style.top = '-350px') {
         featList.style.top = '20px'
         featList.style.opacity ='1'
+        ficon.style.rotate ='180deg'
     }
 })
 
@@ -36,10 +44,15 @@ resources.addEventListener('click', ()=>{
      prodList.style.top = '-350px'
      backdrop.style.display='block'
      body.style.overflow= 'hidden'
+     ficon.style.rotate ='0deg'
+    ricon.style.rotate ='0deg'
+    picon.style.rotate ='0deg'
 
     if (resList.style.top = '-350px') {
         resList.style.top = '20px'
         resList.style.opacity ='1'
+        ricon.style.rotate ='180deg'
+
     }
 })
 products.addEventListener('click', ()=>{
@@ -48,11 +61,16 @@ products.addEventListener('click', ()=>{
     resList.style.top = '-350px'
     backdrop.style.display='block'
     body.style.overflow= 'hidden'
+    ficon.style.rotate ='0deg'
+    ricon.style.rotate ='0deg'
+    picon.style.rotate ='0deg'
 
     prodList.style.top = '-350px'
     if (prodList.style.top = '-350px') {
         prodList.style.top = '20px'
         prodList.style.opacity ='1'
+        picon.style.rotate ='180deg'
+
     }
 })
 
@@ -62,6 +80,11 @@ backdrop.addEventListener('mouseover', ()=>{
     featList.style.top = '-350px'
     backdrop.style.display='none'
     body.style.overflow ='auto'
+
+    ficon.style.rotate ='0deg'
+    ricon.style.rotate ='0deg'
+    picon.style.rotate ='0deg'
+
 })
 
 openNav.addEventListener('click', ()=>{

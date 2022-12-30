@@ -810,11 +810,16 @@ aside::-webkit-scrollbar-thumb {
         color: black;
         font-size: 14px;
     }
+    .navs .iconify{
+        transition: all .5s ease-in-out;
+    }
     .menu .features,
     .menu .products,
     .menu .resources,
     .menu .more{
-        display: inline;
+        display: flex;
+        gap: 5px;
+        align-items: flex-end;
         cursor: pointer;
         border: none;
         padding:5px 10px;
