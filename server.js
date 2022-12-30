@@ -178,10 +178,6 @@ const business = document.querySelector('.bs')
 const publish = document.querySelector('.ps')
 const developer = document.querySelector('.dv')
 
-
-
-
-// business.styling = 'none'
 let playlist1 = ()=>{
     if (business.style.display = 'none' , publish.style.display = 'none', developer.style.display = 'none' ) {
             creator.style.display = 'flex'
@@ -217,3 +213,14 @@ let infinitelist = [playlist1, playlist2, playlist3, playlist4]
              index=0
         }
     }, 4000);
+
+
+
+
+    // watch demo scroll down
+
+    const watchnow = document.querySelector('.watchnow');
+
+    watchnow.addEventListener('click', ()=>{
+        window.scrollTo(2800,2800)
+    })

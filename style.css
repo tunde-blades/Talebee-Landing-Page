@@ -313,10 +313,12 @@ aside::-webkit-scrollbar-thumb {
     font-size: 17px;
 }
 .blg-content span{
-    color:white;
-    
-   
+    color:white;  
 }
+.blg .btns span{
+    display: none;
+}
+
 .blg-content .create-cont,
 .blg-content .publish-cont,
 .blg-content  .business-cont,
@@ -962,6 +964,23 @@ aside::-webkit-scrollbar-thumb {
         border: 1px solid gray;
         left: 0;
         transform: translate(0);
+    }
+    .blg .btns{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .blg .btns span{
+        border: 1px solid gray;
+        border-radius: .3em;
+        padding: 7px;
+        cursor: pointer;
+    }
+    .blg .btns span:hover{
+        background-color: var(--extraColor3);
+        transition: all .3s ease-in-out;
+        color: var(--secondaryColor);
     }
     .all-content{
         display: flex;
