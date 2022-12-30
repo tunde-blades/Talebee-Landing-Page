@@ -31,7 +31,7 @@ features.addEventListener('click', ()=>{
     picon.style.rotate ='0deg'
 
 
-    if (featList.style.top = '-350px') {
+    if (featList.style.top = '-350px', ficon.style.rotate ='0deg') {
         featList.style.top = '20px'
         featList.style.opacity ='1'
         ficon.style.rotate ='180deg'
@@ -48,7 +48,7 @@ resources.addEventListener('click', ()=>{
     ricon.style.rotate ='0deg'
     picon.style.rotate ='0deg'
 
-    if (resList.style.top = '-350px') {
+    if (resList.style.top = '-350px',  ricon.style.rotate ='0deg') {
         resList.style.top = '20px'
         resList.style.opacity ='1'
         ricon.style.rotate ='180deg'
@@ -66,7 +66,7 @@ products.addEventListener('click', ()=>{
     picon.style.rotate ='0deg'
 
     prodList.style.top = '-350px'
-    if (prodList.style.top = '-350px') {
+    if (prodList.style.top = '-350px',  picon.style.rotate ='0deg') {
         prodList.style.top = '20px'
         prodList.style.opacity ='1'
         picon.style.rotate ='180deg'
@@ -222,5 +222,5 @@ let infinitelist = [playlist1, playlist2, playlist3, playlist4]
     const watchnow = document.querySelector('.watchnow');
 
     watchnow.addEventListener('click', ()=>{
-        window.scrollTo(2800,2800)
+        window.scrollTo(2900,2900)
     })

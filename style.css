@@ -776,8 +776,8 @@ aside::-webkit-scrollbar-thumb {
         display: flex;
         align-items: center;
         position: relative;
-        right: 20px;
-        width: 70%;
+        /* right: 0px; */
+        width: 100%;
         max-width: 600px;
         z-index: 10;
     }
@@ -786,7 +786,7 @@ aside::-webkit-scrollbar-thumb {
         display: flex;
         align-items: center;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-evenly;
         background-color: white;
         /* z-index: 100; */
     }
@@ -796,7 +796,6 @@ aside::-webkit-scrollbar-thumb {
     .menu nav{
         display: flex;
         flex-direction: row;
-        gap: 20px;
     }
     .menu ol li{
         margin: 5px 0;
@@ -972,6 +971,7 @@ aside::-webkit-scrollbar-thumb {
         gap: 20px;
     }
     .blg .btns span{
+        display: block;
         border: 1px solid gray;
         border-radius: .3em;
         padding: 7px;
@@ -1083,12 +1083,19 @@ aside::-webkit-scrollbar-thumb {
             align-items: center;
             justify-content: flex-start;
         }
+        .tell-story div{
+            width: 60%;
+            min-width: 300px;
+            padding-right: 30px;
+        }
         .tell-story h1{
+            padding-bottom: 10px;
             width: 100%;
             font-size: 40px;
             text-align: left;
         }
         .tell-story p{
+            width: 80%;
             left: 0;
             transform: translate(0);
             text-align: left;
