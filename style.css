@@ -395,7 +395,7 @@ aside::-webkit-scrollbar-thumb {
     width: 100%;
     max-width: 450px;
     height: 700px;
-    max-height:700px;
+    max-height: 700px;
     border-radius: 1em;
 }
 .all-content picture img{
@@ -996,7 +996,9 @@ aside::-webkit-scrollbar-thumb {
         border-radius: 0;
     }
     .all-content picture img{
-        display: block;
+        display: inline;
+        height: 700px;
+        max-height: 700px;
     }
         .all-content button{
             margin-top: 30px;
