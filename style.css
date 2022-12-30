@@ -628,7 +628,6 @@ aside::-webkit-scrollbar-thumb {
     }
     .users{
         position: absolute;
-        max-width: 1400px;
         gap: 20px;
         text-align: center;
         display: flex;
