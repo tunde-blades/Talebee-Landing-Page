@@ -20,7 +20,7 @@ h4{
     text-decoration: none;
     scroll-behavior: smooth;
 }
-    .wave{
+    /* .wave{
         position: absolute;
         left: 0;
         overflow: hidden;
@@ -34,7 +34,7 @@ h4{
         overflow: hidden;
         width: calc(100% + 1.3px);
         height: 59px;
-    }
+    } */
 button:hover, a:hover{
     cursor: pointer;
     transform: scale(1.04);
@@ -724,7 +724,7 @@ aside::-webkit-scrollbar-thumb {
     .sm-navs{
         display: none;
     }
-    .wave {
+    /* .wave {
     position: absolute;
     top: 0;
     left: 0;
@@ -741,7 +741,7 @@ aside::-webkit-scrollbar-thumb {
     height: 124px;
     transform: rotateY(180deg);
     overflow: hidden;
-}
+} */
 
     .container{
         padding: 0px 40px;
@@ -902,7 +902,7 @@ aside::-webkit-scrollbar-thumb {
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
-        background-color: white;
+        /* background-color: white; */
         z-index: 100;
     }
     .active img{
@@ -1037,7 +1037,7 @@ aside::-webkit-scrollbar-thumb {
          border-radius: .5em;
          min-width: 200px;
          max-width: 500px;
-         text-align: right;
+         text-align: left;
          background: white;
     }
     .mks-box div h1{
@@ -1111,7 +1111,7 @@ aside::-webkit-scrollbar-thumb {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
     .manage-box .iconify{
         color: var(--secondaryColor);
