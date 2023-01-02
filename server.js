@@ -1,14 +1,13 @@
 const menu = document.querySelector('.menu')
 const features = document.querySelector('.features')
-const ficon = document.querySelector('.ficon')
+let ficon = document.querySelector('.ficon')
 const resources = document.querySelector('.resources')
-const ricon = document.querySelector('.ricon')
+let ricon = document.querySelector('.ricon')
 const products = document.querySelector('.products')
-
+let picon = document.querySelector('.picon')
 
 const featList = document.querySelector('.features-list')
 const prodList = document.querySelector('.products-list')
-const picon = document.querySelector('.picon')
 const resList = document.querySelector('.resources-list')
 
 
@@ -18,7 +17,9 @@ const mobileMenu = document.querySelector('.sm-menu')
 const backdrop = document.querySelector('.bkdrop')
 const body = document.querySelector('body')
 
-
+ ficon.style.rotate ='0deg'
+ricon.style.rotate ='0deg'
+picon.style.rotate ='0deg'
 
 features.addEventListener('click', ()=>{
 
@@ -26,15 +27,16 @@ features.addEventListener('click', ()=>{
      resList.style.top = '-350px'
      backdrop.style.display='block'
      body.style.overflow= 'hidden'
-     ficon.style.rotate ='0deg'
-    ricon.style.rotate ='0deg'
-    picon.style.rotate ='0deg'
+     if (ficon.style.rotate ='0deg') {
+            ficon.style.rotate ='180deg'
+            ricon.style.rotate ='0deg'
+            picon.style.rotate ='0deg'
+     }
 
-
-    if (featList.style.top = '-350px', ficon.style.rotate ='0deg') {
+    if (featList.style.top = '-350px') {
         featList.style.top = '20px'
         featList.style.opacity ='1'
-        ficon.style.rotate ='180deg'
+
     }
 })
 
@@ -44,14 +46,16 @@ resources.addEventListener('click', ()=>{
      prodList.style.top = '-350px'
      backdrop.style.display='block'
      body.style.overflow= 'hidden'
-     ficon.style.rotate ='0deg'
-    ricon.style.rotate ='0deg'
-    picon.style.rotate ='0deg'
+      
+    if (ricon.style.rotate ='0deg') {
+            ficon.style.rotate ='0deg'
+            ricon.style.rotate ='180deg'
+            picon.style.rotate ='0deg'
+     }
 
-    if (resList.style.top = '-350px',  ricon.style.rotate ='0deg') {
+    if (resList.style.top = '-350px') {
         resList.style.top = '20px'
         resList.style.opacity ='1'
-        ricon.style.rotate ='180deg'
 
     }
 })
@@ -61,15 +65,17 @@ products.addEventListener('click', ()=>{
     resList.style.top = '-350px'
     backdrop.style.display='block'
     body.style.overflow= 'hidden'
-    ficon.style.rotate ='0deg'
-    ricon.style.rotate ='0deg'
-    picon.style.rotate ='0deg'
-
     prodList.style.top = '-350px'
-    if (prodList.style.top = '-350px',  picon.style.rotate ='0deg') {
+       
+    if (picon.style.rotate ='0deg') {
+            ficon.style.rotate ='0deg'
+            ricon.style.rotate ='0deg'
+            picon.style.rotate ='180deg'
+     }
+
+    if (prodList.style.top = '-350px') {
         prodList.style.top = '20px'
         prodList.style.opacity ='1'
-        picon.style.rotate ='180deg'
 
     }
 })
@@ -80,10 +86,11 @@ backdrop.addEventListener('mouseover', ()=>{
     featList.style.top = '-350px'
     backdrop.style.display='none'
     body.style.overflow ='auto'
-
-    ficon.style.rotate ='0deg'
-    ricon.style.rotate ='0deg'
-    picon.style.rotate ='0deg'
+     
+        ficon.style.rotate ='0deg'
+        ricon.style.rotate ='0deg'
+        picon.style.rotate ='0deg'
+     
 
 })
 
@@ -212,15 +219,33 @@ let infinitelist = [playlist1, playlist2, playlist3, playlist4]
         }else if(index = infinitelist.length){
              index=0
         }
-    }, 4000);
+    }, 5000);
 
 
 
 
     // watch demo scroll down
 
-    const watchnow = document.querySelector('.watchnow');
+    let watchnow = document.querySelector('.watchnow')
 
     watchnow.addEventListener('click', ()=>{
+        window.scrollTo(2900,2900)
+    })
+
+    let watchnow2 = document.querySelector('.watchnow2')
+
+    watchnow2.addEventListener('click', ()=>{
+        window.scrollTo(2900,2900)
+    })
+
+    let watchnow3 = document.querySelector('.watchnow3')
+
+    watchnow3.addEventListener('click', ()=>{
+        window.scrollTo(2900,2900)
+    })
+
+    let watchnow4 = document.querySelector('.watchnow4')
+
+    watchnow4.addEventListener('click', ()=>{
         window.scrollTo(2900,2900)
     })
