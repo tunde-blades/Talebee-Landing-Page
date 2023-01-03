@@ -192,7 +192,7 @@ aside::-webkit-scrollbar-thumb {
     border: 1px solid grey;
     padding: 9px 11px;
     background-color:var(--secondaryColor);
-    border-radius: .5em;
+    border-radius: .2em;
     font-size: 15px;
 }
 .signUpbtn a{
@@ -230,7 +230,7 @@ aside::-webkit-scrollbar-thumb {
 }
 .get-organised picture img{
     width: 100%;
-    max-width: 700px;
+    max-width: 400px;
 }
 .ur-business{
     position: relative;
@@ -238,13 +238,18 @@ aside::-webkit-scrollbar-thumb {
     transform: translate(-50%);
     width: 90%;
     max-width: 420px;
-    font-size: 35px;
+    font-size: 45px;
     font-family: var(--font);
     font-weight: 700;
 }
-.ur-business span{
-    text-decoration: underline;
-    color: var(--secondaryColor);
+.get-organised p{
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    margin: 20px 0;
+    font-family: var(--font);
 }
 
 
@@ -474,7 +479,7 @@ aside::-webkit-scrollbar-thumb {
         margin-bottom: 10px;
     }
 
-    .tell-story{
+    .ai-writing{
         margin: 100px 0;
         position: relative;
         box-sizing: border-box;
@@ -486,20 +491,20 @@ aside::-webkit-scrollbar-thumb {
         font-family: var(--font);
         overflow: hidden;
     }
-    .tell-story h1{
+    .ai-writing h1{
         width: 80%;
         position: relative;
         left: 50%;
         transform: translate(-50%);
         font-size: 40px;
     }
-    .tell-story p{
+    .ai-writing p{
         position: relative;
         left: 50%;
         transform: translate(-50%);
         width: 70%;
     }
-    .tell-story img{
+    .ai-writing img{
         width: 100%;
         max-width: 1000px;
     }
@@ -531,6 +536,7 @@ aside::-webkit-scrollbar-thumb {
         background-color: white;
     }
     .manage-box{
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -548,31 +554,31 @@ aside::-webkit-scrollbar-thumb {
         margin-top: 10px;
         box-shadow: 2px 2px 2px  #18181834;
          padding: 20px;
-         border: 1px solid rgba(128, 128, 128, 0.562);
-          border-left: 3px solid var(--secondaryColor);
-         border-radius: .5em;
-         height: 350px;
-         width: 90%;
-         text-align: left;
-         background: white;
+        border: 1px solid rgba(128, 128, 128, 0.562);
+        border-left: 3px solid var(--secondaryColor);
+        border-radius: .5em;
+        width: 90%;
+        text-align: left;
+        background: white;
     }
      .manage-box div span{
         font-size: 15px;
         width: 90%;
         font-family: var(--font);
-        position: absolute;
-        bottom: 40px;
-        right: 10px;
-        color: var(--secondaryColor);
      }
     .manage-box div h1{
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-top: 20px;
     }
+     .manage-box div p{
+        margin-top: 100px;
+     }
     .manage li{
         list-style-type: disc;
         margin-left: 20px;
     }
+
+
     .new{
         background-color: black;
         overflow: hidden;
@@ -750,7 +756,7 @@ aside::-webkit-scrollbar-thumb {
         position: relative;
         left: 50%;
         transform: translate(-50%);
-        max-width: 1200px;
+        max-width: 1350px;
     }
      #bar{
         display: none;
@@ -865,7 +871,7 @@ aside::-webkit-scrollbar-thumb {
     .get-organised{
         box-sizing: border-box;
         position: relative;
-        margin-top: 50px;
+        margin: 100px 0;
     }
     .gt-box{
         width: 100%;
@@ -879,12 +885,22 @@ aside::-webkit-scrollbar-thumb {
     }
     .get-organised picture img{
         width: 100%;
-        max-width: 800px;
+        max-width: 650px;
     }
     .ur-business{
-        width: 350px;
-        font-size: 35px;
+        text-align: left;
+        width: 400px;
+        max-width: 500px;
+        font-size: 55px;
     }
+    .get-organised p{
+    width: 80%;
+    position: relative;
+    left: 0;
+    transform: translate(0%);
+    font-size: 20px;
+    margin: 10px 0;
+}
         
     i{
         color: grey;
@@ -900,13 +916,12 @@ aside::-webkit-scrollbar-thumb {
         position: relative;
         height: 250px;
         min-width: 100px;
-        top: 80px;
+        top: 60px;
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
-        /* background-color: white; */
         z-index: 100;
     }
     .active img{
@@ -919,14 +934,10 @@ aside::-webkit-scrollbar-thumb {
     rotate: 80deg;
 }
     .blg-btn button{
-        margin-left: 5px;
-        margin-top: 7px;
-        margin-bottom: 10px;
         padding: 10px;
-        border-radius: .5em 0;
+        border-radius: 0;
         border: 1px solid var(--secondaryColor);;
         background: white;
-        box-shadow: 0 2px 2px var(--secondaryColor);;
     }
     .blg-content{
         box-sizing: border-box;
@@ -937,7 +948,7 @@ aside::-webkit-scrollbar-thumb {
         left: 0;
         transform: translate(0);
         text-align: left;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .blg-content li{
         display: flex;
@@ -1075,7 +1086,7 @@ aside::-webkit-scrollbar-thumb {
         right: 10px;
         color: var(--secondaryColor);
     }
-        .tell-story{
+        .ai-writing{
             position: relative;
             box-sizing: border-box;
             display: flex;
@@ -1083,24 +1094,23 @@ aside::-webkit-scrollbar-thumb {
             align-items: center;
             justify-content: flex-start;
         }
-        .tell-story div{
+        .ai-writing div{
             width: 60%;
             min-width: 300px;
             padding-right: 30px;
         }
-        .tell-story h1{
+        .ai-writing h3{
             padding-bottom: 10px;
-            width: 100%;
             font-size: 40px;
             text-align: left;
         }
-        .tell-story p{
+        .ai-writing p{
             width: 80%;
             left: 0;
             transform: translate(0);
             text-align: left;
         }
-        .tell-story img{
+        .ai-writing img{
             width: 200%;
         }
          .storyimg{
@@ -1145,31 +1155,37 @@ aside::-webkit-scrollbar-thumb {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 20px;
     }
     .manage-box .iconify{
         color: var(--secondaryColor);
         font-size: 35px;
     }
     .manage-box div{
+        display: flex;
+        justify-content: space-between;
         position: relative;
         box-sizing: border-box;
         margin-top: 10px;
         box-shadow: 2px 2px 2px  #18181834;
-         padding: 20px;
+         /* padding: 20px; */
          border: 1px solid rgba(128, 128, 128, 0.562);
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
-         max-width: 300px;
+         max-width: 350px;
+         height: 300px;
          text-align: left;
          background: white;
     }
     .manage-box div h1{
-        width: 90%;
         font-size: 20px;
         font-family: var(--font);
         position: relative;
-        color: var(--secondaryColor);
+        margin-top: 20px;
     }
+     .manage-box div p{
+        margin-top: 100px;
+     }
 
         .new-users{
             background-position: right;
@@ -1198,7 +1214,8 @@ aside::-webkit-scrollbar-thumb {
 @media (min-width:1000px) {
     .ur-business{
         text-align: left;
-        width: 600px;
-        font-size: 45px;
+        width: 700px;
+        max-width: 600px;
+        font-size: 65px;
     }
 }
