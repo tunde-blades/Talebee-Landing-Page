@@ -950,12 +950,19 @@ aside::-webkit-scrollbar-thumb {
     rotate: 80deg;
 }
     .blg-btn button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
         width: 150px;
         padding: 10px;
         border-radius: 0;
         border: 1px solid var(--secondaryColor);;
         background: white;
     }
+     .blg-btn button .iconify{
+        font-size: 20px;
+     }
     .blg-content{
         box-sizing: border-box;
         padding: 0;
