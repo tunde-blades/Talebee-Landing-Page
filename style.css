@@ -254,6 +254,7 @@ aside::-webkit-scrollbar-thumb {
 
 
 .blg{
+    position: relative;
     margin: 50px 0;
     background:var(--secondaryColor);
     padding: 0;
@@ -311,7 +312,7 @@ aside::-webkit-scrollbar-thumb {
     font-size: 25px;
 }
 .blg h4{
-    color: var(--extraColor2);
+    color: white;
     position: relative;
     bottom: -30px;
     padding: 20px;
@@ -427,6 +428,7 @@ aside::-webkit-scrollbar-thumb {
         overflow: scroll;
         padding: 20px 0;
         background: var(--secondaryColor);
+        margin-bottom: 100px;
     }
     .mks::-webkit-scrollbar {
     width: .1px;
@@ -504,9 +506,9 @@ aside::-webkit-scrollbar-thumb {
         transform: translate(-50%);
         width: 70%;
     }
-    .ai-writing img{
-        width: 100%;
-        max-width: 1000px;
+    .ai-writing video{
+        width: 80%;
+        max-width: 700px;
     }
     .storyimg{
         display: none;
@@ -571,7 +573,8 @@ aside::-webkit-scrollbar-thumb {
         margin-top: 20px;
     }
      .manage-box div p{
-        margin-top: 100px;
+        margin-top: 80px;
+        font-size: 18px;
      }
     .manage li{
         list-style-type: disc;
@@ -910,8 +913,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .blg-box{
         display: flex;
-        margin: 20px 0;
-    }
+        margin: 20px 0;    }
     .blg-btn{
         position: relative;
         height: 250px;
@@ -962,9 +964,10 @@ aside::-webkit-scrollbar-thumb {
         font-size: 27px;
     }
     .blg h4{
-        color: var(--extraColor2);
-        position: absolute;
+        color: white;
+        position: relative;
         top: 50px;
+        margin: 0 30px;
         padding: 0;
         z-index: 100;
 }
@@ -1044,10 +1047,10 @@ aside::-webkit-scrollbar-thumb {
             display: flex;
         }
         .mks{
-        position: relative;
-        box-sizing: border-box;
-        padding: 20px 0;
-        overflow: hidden;
+            position: relative;
+            box-sizing: border-box;
+            padding: 20px 0;
+            overflow: hidden;
     }
     .mks-box{
         max-width: 630px;
@@ -1110,9 +1113,10 @@ aside::-webkit-scrollbar-thumb {
             transform: translate(0);
             text-align: left;
         }
-        .ai-writing img{
-            width: 200%;
-        }
+        .ai-writing video{
+        width: 50%;
+        max-width: 700px;
+    }
          .storyimg{
             position: relative;
             display: block;
@@ -1184,7 +1188,7 @@ aside::-webkit-scrollbar-thumb {
         margin-top: 20px;
     }
      .manage-box div p{
-        margin-top: 100px;
+        margin-top: 90px;
      }
 
         .new-users{

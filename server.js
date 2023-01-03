@@ -229,23 +229,23 @@ let infinitelist = [playlist1, playlist2, playlist3, playlist4]
     let watchnow = document.querySelector('.watchnow')
 
     watchnow.addEventListener('click', ()=>{
-        window.scrollTo(2900,2900)
+        window.scrollTo(1700,1700)
     })
 
     let watchnow2 = document.querySelector('.watchnow2')
 
     watchnow2.addEventListener('click', ()=>{
-        window.scrollTo(2900,2900)
+        window.scrollTo(2500,2500)
     })
 
     let watchnow3 = document.querySelector('.watchnow3')
 
     watchnow3.addEventListener('click', ()=>{
-        window.scrollTo(2900,2900)
+        window.scrollTo(2500,2500)
     })
 
     let watchnow4 = document.querySelector('.watchnow4')
 
     watchnow4.addEventListener('click', ()=>{
-        window.scrollTo(2900,2900)
+        window.scrollTo(2500,2500)
     })
