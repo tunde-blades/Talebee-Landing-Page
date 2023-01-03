@@ -527,15 +527,18 @@ aside::-webkit-scrollbar-thumb {
     }
     
     .manage-container{
+        margin: 100px 0;
         overflow: hidden;
     }
  .manage{
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         padding: 20px 0;
+    }
+    .manage h4{
+        padding: 20px ;
     }
     .manage::-webkit-scrollbar {
     width: .1px;
@@ -647,11 +650,10 @@ aside::-webkit-scrollbar-thumb {
     .users-box{
         position: relative;
         max-width: 100%; 
-        height: 25vh;
         overflow: hidden;
     }
     .users{
-        position: absolute;
+        position: relative;
         gap: 20px;
         text-align: center;
         display: flex;
@@ -930,8 +932,7 @@ aside::-webkit-scrollbar-thumb {
     .blg-btn{
         position: relative;
         height: 250px;
-        min-width: 100px;
-        top: 60px;
+        top: 50px;
         margin: 0;
         padding: 0;
         display: flex;
@@ -949,6 +950,7 @@ aside::-webkit-scrollbar-thumb {
     rotate: 80deg;
 }
     .blg-btn button{
+        width: 150px;
         padding: 10px;
         border-radius: 0;
         border: 1px solid var(--secondaryColor);;
@@ -1109,6 +1111,7 @@ aside::-webkit-scrollbar-thumb {
             flex-direction: row;
             align-items: center;
             justify-content: flex-start;
+            margin: 100px 0;
         }
         .ai-writing div{
             width: 60%;
@@ -1116,20 +1119,22 @@ aside::-webkit-scrollbar-thumb {
             padding-right: 30px;
         }
         .ai-writing h3{
+            width: 100%;
             padding-bottom: 10px;
             font-size: 40px;
             text-align: left;
         }
         .ai-writing p{
-            width: 80%;
+            width: 90%;
+            position: relative;
             left: 0;
             transform: translate(0);
             text-align: left;
         }
         .ai-writing video{
-        width: 50%;
-        max-width: 700px;
-    }
+            width: 100%;
+            max-width: 700px;
+        }
          .storyimg{
             position: relative;
             display: block;
@@ -1156,17 +1161,6 @@ aside::-webkit-scrollbar-thumb {
             box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2), -3px -3px 3px rgba(128, 128, 128, 0.2) ;
             border-radius: .5em;
         }
-        .manage{
-            position: relative;
-            left: 50%;
-            transform: translate(-50%);
-            box-sizing: border-box;
-            padding: 20px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-    }
     .manage-box{
         display: flex;
         flex-wrap: nowrap;
