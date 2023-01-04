@@ -387,10 +387,10 @@ aside::-webkit-scrollbar-thumb {
 .all-text{
     position: relative;
 }
-.easy{
+/* .easy{
     color: var(--secondaryColor);
     font-size: 40px;
-}
+} */
 .sweet{
     color: var(--extraColor);
     font-size: 40px;
@@ -1083,6 +1083,10 @@ aside::-webkit-scrollbar-thumb {
         }
         .menu-display{
             display: flex;
+        }
+
+        .cml-head{
+            max-width: 450px;
         }
          .mks-container h4{
         margin-left: 10%;
