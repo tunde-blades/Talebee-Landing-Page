@@ -368,7 +368,7 @@ aside::-webkit-scrollbar-thumb {
 .cml-head{
     text-align: center;
     font-size: 30px;
-    max-width: 550px;
+    max-width: 350px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -386,6 +386,14 @@ aside::-webkit-scrollbar-thumb {
 }
 .all-text{
     position: relative;
+}
+.easy{
+    color: var(--secondaryColor);
+    font-size: 40px;
+}
+.sweet{
+    color: var(--extraColor);
+    font-size: 40px;
 }
 .text-float{
     position: absolute;
