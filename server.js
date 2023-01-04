@@ -21,7 +21,7 @@ const body = document.querySelector('body')
 ricon.style.rotate ='0deg'
 picon.style.rotate ='0deg'
 
-features.addEventListener('click', ()=>{
+features.addEventListener('mouseenter', ()=>{
 
      prodList.style.top = '-350px'
      resList.style.top = '-350px'
@@ -40,7 +40,7 @@ features.addEventListener('click', ()=>{
     }
 })
 
-resources.addEventListener('click', ()=>{
+resources.addEventListener('mouseenter', ()=>{
 
     featList.style.top = '-350px'
      prodList.style.top = '-350px'
@@ -59,7 +59,7 @@ resources.addEventListener('click', ()=>{
 
     }
 })
-products.addEventListener('click', ()=>{
+products.addEventListener('mouseenter', ()=>{
 
     featList.style.top = '-350px'
     resList.style.top = '-350px'

@@ -425,6 +425,7 @@ aside::-webkit-scrollbar-thumb {
     }
     .mks-container h4{
         margin-left: 8%;
+        color: white;
     }
  .mks{
         position: relative;
@@ -1086,7 +1087,7 @@ aside::-webkit-scrollbar-thumb {
             overflow: hidden;
     }
     .mks-box{
-        /* max-width: 630px; */
+        width: 80%;
         overflow: hidden;
         position: relative;
         left: 50%;
@@ -1108,7 +1109,7 @@ aside::-webkit-scrollbar-thumb {
          border: 1px solid rgba(128, 128, 128, 0.562);
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
-         min-width: 200px;
+         width: 500px;
          max-width: 500px;
          text-align: left;
          background: white;
@@ -1119,9 +1120,11 @@ aside::-webkit-scrollbar-thumb {
         font-family: var(--font);
         position: absolute;
         bottom: 50px;
-        right: 10px;
         color: var(--secondaryColor);
     }
+       .mks-box div p{
+            width: 80%;
+       }
         .ai-writing{
             position: relative;
             box-sizing: border-box;
