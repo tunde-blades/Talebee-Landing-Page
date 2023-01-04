@@ -535,7 +535,7 @@ aside::-webkit-scrollbar-thumb {
         display: flex;
     }
     .ai-writing video{
-        width: 80%;
+        width: 100%;
         max-width: 700px;
     }
     .storyimg{
