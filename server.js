@@ -225,27 +225,73 @@ let infinitelist = [playlist1, playlist2, playlist3, playlist4]
 
 
     // watch demo scroll down
-
+    let blgContent = document.querySelector('.blg-content')
     let watchnow = document.querySelector('.watchnow')
 
     watchnow.addEventListener('click', ()=>{
         window.scrollTo(1700,1700)
+         if (video.paused) {    
+        video.play()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-pause-circle-outline"></span>'
+    }else{
+        video.pause()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-play-circle-outline"></span>'
+    }
     })
 
     let watchnow2 = document.querySelector('.watchnow2')
 
     watchnow2.addEventListener('click', ()=>{
-        window.scrollTo(2500,2500)
+        window.scrollTo(1700,1700)
+               if (video.paused) {    
+        video.play()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-pause-circle-outline"></span>'
+    }else{
+        video.pause()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-play-circle-outline"></span>'
+    }
     })
 
     let watchnow3 = document.querySelector('.watchnow3')
 
     watchnow3.addEventListener('click', ()=>{
-        window.scrollTo(2500,2500)
+        window.scrollTo(1700,1700)
+               if (video.paused) {    
+        video.play()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-pause-circle-outline"></span>'
+    }else{
+        video.pause()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-play-circle-outline"></span>'
+    }
     })
 
     let watchnow4 = document.querySelector('.watchnow4')
 
     watchnow4.addEventListener('click', ()=>{
-        window.scrollTo(2500,2500)
+        window.scrollTo(1700,1700)
+               if (video.paused) {    
+        video.play()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-pause-circle-outline"></span>'
+    }else{
+        video.pause()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-play-circle-outline"></span>'
+    }
     })
+
+
+
+// play ai-assisyed-copy-writting video
+
+const videobox = document.querySelector('.video-box')
+const video = videobox.querySelector('.video')
+const play = videobox.querySelector('.play')
+
+play.addEventListener('click', ()=>{
+    if (video.paused) {    
+        video.play()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-pause-circle-outline"></span>'
+    }else{
+        video.pause()
+        play.innerHTML='<span class="iconify" data-icon="ic:outline-play-circle-outline"></span>'
+    }
+})

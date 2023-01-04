@@ -423,6 +423,9 @@ aside::-webkit-scrollbar-thumb {
     .mks-container{
         overflow: hidden;
     }
+    .mks-container h4{
+        margin-left: 8%;
+    }
  .mks{
         position: relative;
         overflow: scroll;
@@ -517,6 +520,8 @@ aside::-webkit-scrollbar-thumb {
         color: white;
         padding: 5px;
         border-radius: 5em;
+        cursor: pointer;
+        z-index: 1000;
     }
     .ai-writing video{
         width: 80%;
@@ -1068,14 +1073,18 @@ aside::-webkit-scrollbar-thumb {
         .menu-display{
             display: flex;
         }
+         .mks-container h4{
+        margin-left: 10%;
+        margin-bottom: 5px;
+    }
         .mks{
             position: relative;
             box-sizing: border-box;
-            padding: 20px 0;
+            padding: 70px 0;
             overflow: hidden;
     }
     .mks-box{
-        max-width: 630px;
+        /* max-width: 630px; */
         overflow: hidden;
         position: relative;
         left: 50%;
