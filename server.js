@@ -295,3 +295,186 @@ play.addEventListener('click', ()=>{
         play.innerHTML='<span class="iconify" data-icon="ic:outline-play-circle-outline"></span>'
     }
 })
+
+
+// hide and display more contents
+
+const toggle1 = document.querySelector('.hide1')
+const toggle2 = document.querySelector('.hide2')
+const toggle3 = document.querySelector('.hide3')
+const toggle4 = document.querySelector('.hide4')
+const toggle5 = document.querySelector('.hide5')
+const toggle6 = document.querySelector('.hide6')
+
+const morebtn1 = document.querySelector('.more1')
+const morebtn2 = document.querySelector('.more2')
+const morebtn3 = document.querySelector('.more3')
+const morebtn4 = document.querySelector('.more4')
+const morebtn5 = document.querySelector('.more5')
+const morebtn6 = document.querySelector('.more6')
+
+const lessbtn1 = document.querySelector('.less1')
+const lessbtn2 = document.querySelector('.less2')
+const lessbtn3 = document.querySelector('.less3')
+const lessbtn4 = document.querySelector('.less4')
+const lessbtn5 = document.querySelector('.less5')
+const lessbtn6 = document.querySelector('.less6')
+
+
+morebtn1.addEventListener('click', ()=>{
+        if (toggle1.style.display = 'none') {
+            toggle1.style.display = 'inline'
+            morebtn1.style.display = 'none'
+            toggle2.style.display = 'none'
+            toggle3.style.display = 'none'
+            toggle4.style.display = 'none'
+            toggle5.style.display = 'none'
+            toggle6.style.display = 'none'
+
+             morebtn5.style.display = 'inline'
+            morebtn4.style.display = 'inline'
+            morebtn3.style.display = 'inline'
+            morebtn2.style.display = 'inline'
+            morebtn6.style.display = 'inline'
+        }else{
+            toggle1.style.display = 'none'
+        }
+})
+lessbtn1.addEventListener('click', ()=>{
+
+            toggle1.style.display = 'none'
+            morebtn1.style.display = 'inline'
+
+})
+
+morebtn2.addEventListener('click', ()=>{
+        if (toggle2.style.display = 'none') {
+            toggle2.style.display = 'inline'
+            morebtn2.style.display = 'none'
+             toggle1.style.display = 'none'
+            toggle3.style.display = 'none'
+            toggle4.style.display = 'none'
+            toggle5.style.display = 'none'
+            toggle6.style.display = 'none'
+
+             morebtn5.style.display = 'inline'
+            morebtn4.style.display = 'inline'
+            morebtn3.style.display = 'inline'
+            morebtn6.style.display = 'inline'
+            morebtn1.style.display = 'inline'
+        }else{
+            toggle2.style.display = 'none'
+        }
+})
+lessbtn2.addEventListener('click', ()=>{
+
+            toggle2.style.display = 'none'
+            morebtn2.style.display = 'inline'
+
+})
+
+morebtn3.addEventListener('click', ()=>{
+        if (toggle3.style.display = 'none') {
+            toggle3.style.display = 'inline'
+            morebtn3.style.display = 'none'
+             toggle2.style.display = 'none'
+            toggle1.style.display = 'none'
+            toggle4.style.display = 'none'
+            toggle5.style.display = 'none'
+            toggle6.style.display = 'none'
+
+             morebtn5.style.display = 'inline'
+            morebtn4.style.display = 'inline'
+            morebtn6.style.display = 'inline'
+            morebtn2.style.display = 'inline'
+            morebtn1.style.display = 'inline'
+        }else{
+            toggle3.style.display = 'none'
+        }
+})
+lessbtn3.addEventListener('click', ()=>{
+
+            toggle3.style.display = 'none'
+            morebtn3.style.display = 'inline'
+
+})
+
+morebtn4.addEventListener('click', ()=>{
+        if (toggle4.style.display = 'none') {
+            toggle4.style.display = 'inline'
+            morebtn4.style.display = 'none'
+             toggle2.style.display = 'none'
+            toggle3.style.display = 'none'
+            toggle1.style.display = 'none'
+            toggle5.style.display = 'none'
+            toggle6.style.display = 'none'
+             morebtn5.style.display = 'inline'
+            morebtn6.style.display = 'inline'
+            morebtn3.style.display = 'inline'
+            morebtn2.style.display = 'inline'
+            morebtn1.style.display = 'inline'
+        }else{
+            toggle4.style.display = 'none'
+        }
+})
+lessbtn4.addEventListener('click', ()=>{
+
+            toggle4.style.display = 'none'
+            morebtn4.style.display = 'inline'
+
+})
+
+morebtn5.addEventListener('click', ()=>{
+        if (toggle5.style.display = 'none') {
+            toggle5.style.display = 'inline'
+            morebtn5.style.display = 'none'
+             toggle2.style.display = 'none'
+            toggle3.style.display = 'none'
+            toggle4.style.display = 'none'
+            toggle1.style.display = 'none'
+            toggle6.style.display = 'none'
+
+             morebtn6.style.display = 'inline'
+            morebtn4.style.display = 'inline'
+            morebtn3.style.display = 'inline'
+            morebtn2.style.display = 'inline'
+            morebtn1.style.display = 'inline'
+        }else{
+            toggle5.style.display = 'none'
+        }
+})
+lessbtn5.addEventListener('click', ()=>{
+
+            toggle5.style.display = 'none'
+            morebtn5.style.display = 'inline'
+
+})
+
+morebtn6.addEventListener('click', ()=>{
+        if (toggle6.style.display = 'none') {
+            toggle6.style.display = 'inline'
+            morebtn6.style.display = 'none'
+            toggle2.style.display = 'none'
+            toggle3.style.display = 'none'
+            toggle4.style.display = 'none'
+            toggle5.style.display = 'none'
+            toggle1.style.display = 'none'
+
+            morebtn5.style.display = 'inline'
+            morebtn4.style.display = 'inline'
+            morebtn3.style.display = 'inline'
+            morebtn2.style.display = 'inline'
+            morebtn1.style.display = 'inline'
+        }else{
+            toggle6.style.display = 'none'
+        }
+})
+lessbtn6.addEventListener('click', ()=>{
+
+            toggle6.style.display = 'none'
+            morebtn6.style.display = 'inline'
+
+})
+
+
+

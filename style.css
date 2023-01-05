@@ -591,9 +591,16 @@ aside::-webkit-scrollbar-thumb {
         border-left: 3px solid var(--secondaryColor);
         border-radius: .5em;
         width: 90%;
+        min-height: 400px;
         text-align: left;
         background: white;
     }
+        .manage-box div button{
+            background: none;
+            border: none;
+            color: var(--secondaryColor);
+            font-size: 17px;
+        }
      .manage-box div span{
         font-size: 15px;
         width: 90%;
@@ -608,9 +615,8 @@ aside::-webkit-scrollbar-thumb {
         margin-top: 80px;
         font-size: 18px;
      }
-    .manage li{
-        list-style-type: disc;
-        margin-left: 20px;
+    .hide1,.hide2,.hide3,.hide4,.hide5,.hide6{
+        display: none;
     }
 
 
@@ -1217,7 +1223,7 @@ aside::-webkit-scrollbar-thumb {
           border-left: 3px solid var(--secondaryColor);
          border-radius: .5em;
          max-width: 350px;
-         height: 300px;
+         
          text-align: left;
          background: white;
     }
