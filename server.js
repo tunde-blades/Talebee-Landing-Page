@@ -482,6 +482,7 @@ lessbtn6.addEventListener('click', ()=>{
 const getHelp = document.querySelector('.get-help')
 const helpModal = document.querySelector('.help-modal')
 const helpBtn = document.querySelector('.help-btn')
+const loading = document.querySelector('.loading')
 
 getHelp.addEventListener('click', ()=>{
     helpModal.style.display = 'block'
@@ -490,6 +491,7 @@ getHelp.addEventListener('click', ()=>{
 })
 
 helpBtn.addEventListener('click',()=>{
-    helpModal.style.display = 'none'
+     body.style.overflow ='auto'
+     loading.style.display ='flex'
 })
 
