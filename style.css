@@ -703,6 +703,7 @@ aside::-webkit-scrollbar-thumb {
         border-radius: 100%;
     }
     footer{
+        position: relative;
         background-color: var(--secondaryColor);
         /* padding: 20px 0; */
     }
@@ -760,6 +761,67 @@ aside::-webkit-scrollbar-thumb {
         color: white;
         text-align: center;
     }
+
+
+    .help-modal{
+        display: none;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        top: 20%;
+}
+
+.modal-form{
+    background-color: whitesmoke;
+    border-radius: .5em;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+}
+.modal-form div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.help-modal input,
+textarea{
+    width: 200px;
+    padding: 10px;
+    border-radius: .3em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--secondaryColor);
+     color: var(--secondaryColor) ;
+}
+.modal-form textarea{
+    min-height:70px;
+}
+select{
+    padding: 10px;
+    border-radius: .3em;
+    outline: none;
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+.help-modal button{
+    background-color: var(--secondaryColor);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: .3em;
+}
+    .help-modal .backdrop{
+            position: absolute;
+            top: -30%;
+            left: 50%;
+            transform: translate(-50%);
+            height: 100vh;
+            width: 100vw;
+            backdrop-filter: blur(5px);
+        }
 
 
 
@@ -1258,6 +1320,21 @@ aside::-webkit-scrollbar-thumb {
             text-align: center;
             text-transform: capitalize;
         }
+        .help-modal{
+            top: -25%;
+        }
+        .modal-form{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        .help-modal .backdrop{
+            position: absolute;
+            top: -100%;
+            left: 50%;
+            transform: translate(-50%);
+            backdrop-filter: blur(5px);
+        }
+
 
 }
 

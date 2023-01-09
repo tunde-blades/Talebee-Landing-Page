@@ -477,4 +477,19 @@ lessbtn6.addEventListener('click', ()=>{
 })
 
 
+//help center display
+
+const getHelp = document.querySelector('.get-help')
+const helpModal = document.querySelector('.help-modal')
+const helpBtn = document.querySelector('.help-btn')
+
+getHelp.addEventListener('click', ()=>{
+    helpModal.style.display = 'block'
+    body.style.overflow ='hidden'
+
+})
+
+helpBtn.addEventListener('click',()=>{
+    helpModal.style.display = 'none'
+})
 
